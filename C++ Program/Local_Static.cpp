@@ -1,35 +1,22 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int funlocal();
-int funstatic();
-
-
-int main()
-{
-	cout<<"------------------Local-------------"<<endl;
-	cout<<"final value "<<funlocal()<<endl;
-	cout<<"final value "<<funlocal()<<endl;
-	cout<<"final value "<<funlocal()<<endl;
-	cout<<"------------------Static-------------"<<endl;
-	cout<<"final value "<<funstatic()<<endl;
-	cout<<"final value "<<funstatic()<<endl;
-	cout<<"final value "<<funstatic()<<endl;
+class date1{
+	int dd,mm,yy;
+	public:
+		date1(int=5,int=6,int=2000);
+			void show(){
+				cout<<"\n"<<dd<<" "<<mm<<" "<<yy;
+			}
+};
+date1::date1(int a,int b,int c){
+	dd=a;
+	mm=b;
+	yy=c;
 }
-int funlocal()
-{
-	int x=0;
-	static int count=0;
-    cout << "\nI am called " << ++count << " times!\n";
-
-	cout<<"Initial value of x : "<<x<<"\t";
-	x++;
-	return x;
-}
-
-int funstatic()
-{
-	static int x=0;
-	cout<<"Initial value of x : "<<x<<"\t";
-	x++;
-	return x;
-}
+int main(){
+	date1 d(2,3,2001);
+	d.show();
+	date1 d2;
+	d2.show();
+	return 0;
+	}

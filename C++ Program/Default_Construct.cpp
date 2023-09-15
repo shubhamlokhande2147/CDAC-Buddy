@@ -1,33 +1,16 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-
-class Student
-{
-   int rno;
-   char name[20];
-   double fees;
-   
-   public:
-           Student()
-		   {
-		   	 cout<<"Enter the roll no. : "<<endl;
-		   	 cin>>rno;
-		   	 cout<<"Enter the name : "<<endl;
-		   	 cin>>name;
-		   	 cout<<"Enter the fees : "<<endl;
-		   	 cin>>fees;
-		   }	
-		   
-		   void disp()
-		   {
-		   	cout<<"Roll no. : "<<rno<<endl<<"name : "<<name<<endl<<"Fees : "<<fees;
-		   }
-};
-
-
 int main()
 {
-	Student s1;
-	s1.disp();
+	int m1,m2,m3,m4,m5;
+	float total,avg;
+	
+	cout<<"Enter the 5 subject marks : "<<endl;
+	cin>>m1>>m2>>m3>>m4>>m5;
+	
+	total = m1+m2+m3+m4+m5;
+	avg = (float)total/5;
+	cout<<"Average of 5 subjects marks : "<<avg;
+	
 	return 0;
 }

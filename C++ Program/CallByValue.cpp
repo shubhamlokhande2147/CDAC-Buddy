@@ -1,23 +1,16 @@
 #include <iostream>
 using namespace std;
-void swap(int p,int q);
-
 int main()
-{ 
-   int a,b;
-   cout<<"Enter the value of a and b: ";
-   cin>>a>>b;
-   cout<<"Before Swapping "<<a<<" "<<b<<endl;
-   swap(a,b);
-   cout<<"After Swapping "<<a<<" "<<b<<endl;
-   return 0;
+{
+	int m1,m2,m3,m4,m5;
+	float total,avg;
+	
+	cout<<"Enter the 5 subject marks : "<<endl;
+	cin>>m1>>m2>>m3>>m4>>m5;
+	
+	total = m1+m2+m3+m4+m5;
+	avg = (float)total/5;
+	cout<<"Average of 5 subjects marks : "<<avg;
+	
+	return 0;
 }
-void swap(int p,int q){
-	int temp;
-	temp=p;
-	p=q;
-	q=temp;
-	cout<<"After Swapping "<<p<<" "<<q<<endl;
-}
-   
-

@@ -1,32 +1,23 @@
-#include<iostream>
-#include<string.h>
+#include <iostream>
 using namespace std;
-
-class Student
-{
-   int rno;
-   char name[20];
-   double fees;
-   
-   public:
-           Student(int,char[],double); //constructor and fun declaration
-           
-		   void disp() //inside fun defination
-		   {
-           	cout<<"Roll no "<<rno<<endl<<"Name "<<name<<endl<<"Fees "<<fees<<endl;
-		   }
-};
-           Student::Student(int no,char nm[],double f)  //outside fun defination
-            {
-	           rno=no;
-	           strcpy(name,nm);
-            	fees=f;	
-            }
-
+void swap(int* p,int* q);
 
 int main()
-{
-	Student s1(10,"AbhayShubham",10000);   //parameter passes into object
-	s1.disp();
-	return 0;
+{ 
+   int a,b;
+   cout<<"Enter the value of a and b: ";
+   cin>>a>>b;
+   cout<<"Before Swapping "<<a<<" "<<b<<endl;
+   swap(&a,&b);
+   cout<<"After Swapping "<<a<<" "<<b<<endl;
+   return 0;
 }
+void swap(int* p,int* q){
+	int temp;
+	temp=*p;
+	*p=*q;
+	*q=temp;
+	cout<<"After Swapping "<<*p<<" "<<*q<<endl;
+}
+   
+
