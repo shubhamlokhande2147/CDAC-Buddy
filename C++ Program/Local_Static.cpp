@@ -1,22 +1,46 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-class date1{
-	int dd,mm,yy;
-	public:
-		date1(int=5,int=6,int=2000);
-			void show(){
-				cout<<"\n"<<dd<<" "<<mm<<" "<<yy;
-			}
-};
-date1::date1(int a,int b,int c){
-	dd=a;
-	mm=b;
-	yy=c;
+int funlocal();
+int funstatic();
+static int count=0;
+int area();
+int main()
+{
+	cout<<"------------------Local-------------"<<endl;
+	cout<<"  final value "<<funlocal()<<endl;
+	cout<<"  final value "<<funlocal()<<endl;
+	cout<<"  final value "<<funlocal()<<endl;
+	cout<<"------------------Static-------------"<<endl;
+	cout<<"  final value "<<funstatic()<<endl;
+	cout<<"  final value "<<funstatic()<<endl;
+	cout<<"  final value "<<funstatic()<<endl;
+
+ 	cout<<"Function call no of times :"<<count<<endl;
+ 	
+ 	cout<<"Constant Variable"<<endl;
+ 	cout<<"area of Circle "<<area()<<endl;
 }
-int main(){
-	date1 d(2,3,2001);
-	d.show();
-	date1 d2;
-	d2.show();
-	return 0;
-	}
+int funlocal()
+{
+	int x=0;
+	cout<<"Initial value of x: "<<x;
+	x++;
+	
+	return x,count++;
+}
+
+int funstatic()
+{
+	static int x=0;
+	cout<<"Initial value of x: "<<x;
+	x++;
+	return x;
+}
+int area(){
+	const float pi=3.142f;//constant
+	double r=2;
+	double area1;
+	area1=pi*r*r;
+	
+	return area1;
+}
