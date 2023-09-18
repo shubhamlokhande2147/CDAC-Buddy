@@ -1,6 +1,7 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
+
+#include <cmath>
 
 float solve( int P, int T, float R, int N) {
    float fa;
