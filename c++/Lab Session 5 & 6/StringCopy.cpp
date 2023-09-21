@@ -5,12 +5,14 @@ void ustrcpy(char*p,char*q);
 
 int main()
 {
-	char a[15];
-	char b[15];
+	char *a = new char[15];
+	char *b = new char[15];
 	cout<<"\n Enter your String1:";
 	cin>>a;
     ustrcpy(b,a);
-    cout<<"Copied string : "<<b;
+    cout<<"\nCopied string : "<<b;
+    delete[] a;
+    cout<<"\nAfter Delete Opeartion : \t a="<<a;
 }
 void ustrcpy(char*q,char*p)
 {

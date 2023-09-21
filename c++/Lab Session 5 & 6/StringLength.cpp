@@ -5,12 +5,15 @@ int ustrlen(char*p);
 
 int main()
 {
-	char a[15];
+	char *a = new char[15];
     int len;
 	cout<<"\n Enter your String1:";
 	cin>>a;
     len=ustrlen(a);
-    cout<<"Length of string : "<<len;
+    cout<<"\nLength of string : "<<len;
+    
+	delete[] a;
+	cout<<"\nString After delete opeartion - "<<a;
 }
 int ustrlen(char*p)
 {
