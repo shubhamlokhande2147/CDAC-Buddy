@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-class Emp
+class Emp//abstract class
 {
   int id;
   public:

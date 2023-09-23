@@ -22,12 +22,25 @@ class Date1
              this->yy = this->yy+y;
             }
             
+			void add(int d,int m)
+            {
+             cout<<"\nAddition of Date : ";    
+             this->dd = this->dd+d;
+             this->mm = this->mm+m;
+            }
+            
             void sub(int d,int m,int y)
             {
              cout<<"\nSubstraction of Date : ";
              this->dd = this->dd-d;
              this->mm = this->mm-m;
              this->yy = this->yy-y;
+            }
+             void sub(int d,int m)
+            {
+             cout<<"\nSubstraction of Date : ";
+             this->dd = this->dd-d;
+             this->mm = this->mm-m;
             }
 };
 class Time
@@ -68,6 +81,9 @@ int main()
     D2.show();
     D2.sub(2,3,5);
     D2.show();
+    D2.add(7,4);
+    D2.show();
+   
     cout<<"--------------------------------------"<<endl;
     Time T2(11,30,28);
     T2.show();
