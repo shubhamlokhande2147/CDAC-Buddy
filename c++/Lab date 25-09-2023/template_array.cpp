@@ -8,7 +8,7 @@ class A
     void insert()  
     {  
         int i =1;  
-        for (int j=0;j<size;j++)  
+        for (int j=0;j<size;j++)
         {  
             arr[j] = i;  
             i++; 
