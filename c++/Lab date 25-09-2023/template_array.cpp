@@ -11,7 +11,7 @@ class A
         for (int j=0;j<size;j++)  
         {  
             arr[j] = i;  
-            i++;  
+            i++; 
         }  
     }  
       
