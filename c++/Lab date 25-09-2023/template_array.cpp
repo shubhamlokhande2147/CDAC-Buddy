@@ -1,6 +1,6 @@
 #include <iostream>  
 using namespace std;  
-template<class T, int size>  
+template<class T, int size> 
 class A   
 {  
     public:  
