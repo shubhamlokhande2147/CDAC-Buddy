@@ -11,12 +11,13 @@ T swap1(T &a,T &b)
 int main()
 {
 	cout<<"Enter two Number: ";
-	int m1=5,m2=9;
+	float m1,m2;
 	//double d1,d2;
 	cin>>m1>>m2;
 	cout<<"\nBefore Swapping Numbers are :"<<" m1= "<<m1<<" m2 = "<<m2;
 	swap1(m1,m2);
 	cout<<"\nAfter Swapping Numbers are :"<<" m1= "<<m1<<" m2 = "<<m2;
+
 	//for double
 	cout<<"\nEnter two double Number: ";
 	double d1,d2;
@@ -24,5 +25,6 @@ int main()
 	cout<<"\nBefore Swapping Numbers are :"<<" d1= "<<d1<<" d2 = "<<d2;
 	swap1(d1,d2);
 	cout<<"\nAfter Swapping Numbers are :"<<" d1= "<<d1<<" d2 = "<<d2;
+
 	return 0;
 }
