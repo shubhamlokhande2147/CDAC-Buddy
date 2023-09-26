@@ -3,10 +3,10 @@
 using namespace std;
 int main()
 {
-    int size;
-    cin>>size;
+    int size=8;
+    //cin>>size;
     int s,e;
-    int arr[size]={4,-4,8,12,-1,1,0};
+    int arr[size]={15,-2,2,-8,1,7,10,23};
     int maxLen = INT_MIN;
     for(int i=0;i<size;i++)
     {
