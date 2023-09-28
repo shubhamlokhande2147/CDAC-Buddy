@@ -40,34 +40,34 @@ class Student
 //			   
 //			   
 //		   }
-Student()
-{
-		   		this->roll=1;
-		   		this->m1=1;
-		   		this->m2=12;
-		   		this->m3=123;
-		   		adress=Adr();
-}
-		   Student(int roll,int m1,int m2,int m3,int pn,char st[],char ct[]):adress(pn,st,ct)
+//Student()
+//{
+//		   		this->roll=1;
+//		   		this->m1=1;
+//		   		this->m2=12;
+//		   		this->m3=123;
+//		   		adress=Adr();
+//}
+		   Student(int roll,int m1,int m2,int m3,pn,st[],ct[]):adress(pn,st,ct)
 		   {
 		   		this->roll=roll;
 		   		this->m1=m1;
 		   		this->m2=m2;
 		   		this->m3=m3;
-//		   		adress=Adr();
+		   		adress=Adr();
 		   }
 		   void display()
 		   {
-		   	    adress.display();	
 		   	    avg=(float)(m1+m2+m3)/3;
 		     	cout<<"\nRoll No: "<<roll<<"\nMarks : "<<m1<<" "<<m2<<" "<<m3<<" "<<"\nAvearge : "<<avg;   
+				 adress.display();	
 		   }	
 };
 
 int main()
 { 
-	Student s1(101,98,87,80,166032,"Rankal_Road","Kolhapur");
-//	s1.get();
+	Student s1(1,12,12,12,101,"we","sd");
+	s1.get();
 	s1.display();
 
 	return 0;

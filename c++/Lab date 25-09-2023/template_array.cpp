@@ -1,6 +1,6 @@
 #include <iostream>  
 using namespace std;  
-template<class T, int size> 
+template<class T, int size>  
 class A   
 {  
     public:  
@@ -8,14 +8,14 @@ class A
     void insert()  
     {  
         int i =1;  
-        for (int j=0;j<size;j++)
+        for (int j=0;j<size;j++)  
         {  
             arr[j] = i;  
-            i++; 
+            i++;  
         }  
     }  
       
-    void display() 
+    void display()  
     {  
         for(int i=0;i<size;i++)  
         {  
