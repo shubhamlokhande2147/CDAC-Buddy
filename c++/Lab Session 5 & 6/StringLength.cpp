@@ -20,7 +20,7 @@ int ustrlen(char*p)
     int len=0;
 	while(*p!='\0')
 	{
-        len++;
+                len++;
 		p++;
 	}
             return len;
