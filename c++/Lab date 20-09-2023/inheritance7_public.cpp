@@ -33,7 +33,7 @@ int main()
 {
 	B bobj;
 	bobj.show();
-	bobj.display();// error 
+	bobj.display();
 	C cobj;
 	cobj.show();
 }

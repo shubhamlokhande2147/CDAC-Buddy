@@ -13,6 +13,8 @@ class A
 			cout<<"In Display of A\n ";
 		}
 };
+
+
 class B:protected A{
 	public:
 		void show()
@@ -20,6 +22,8 @@ class B:protected A{
 			cout<<a<<b<<endl;
 		}
 };
+
+
 class C : protected B
 {
 	public:
@@ -33,7 +37,7 @@ int main()
 {
 	B bobj;
 	bobj.show();
-//	bobj.display();// error 
+	bobj.display();// error 
 	C cobj;
 	cobj.show();
 }
