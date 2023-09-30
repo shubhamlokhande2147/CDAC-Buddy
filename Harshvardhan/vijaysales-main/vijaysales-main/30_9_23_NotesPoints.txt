@@ -1,0 +1,123 @@
+Application Stack
+
+
+1.Application 	(Vijay Sales Web App)
+2.Runtime			(node js)
+3.OS-----Commands--Linux Commands																				User Mode
+4.OS-----Shell-----Linux shell/ Command Line--------------------------------------------------------------------------------
+																											Kernel Model
+
+5.OS-----Kernel----(Scheduler + Memory manager + Device Manager +  IO Manager + Configuration Manager+ etc.)
+6.Device Drivers---(network device driver , Mouse device driver, Keyboard device driver, display device driver,.....etc.)
+7.Hardware---------(CPU + GPU  + RAM  + Storage Device + network connectivity)
+
+
+Runtime Enviornment allows code to run on  infrastructure without worrying about details
+
+
+ 
+Node js+ Web application Framework
+Deploying Web application
+Importance of Javascript
+ 
+Web Pages
+
+Web application:
+				Web site + 		Web Services + Application Services  + Database Connectivity  + database
+				Web UI   + 		Remote Procedural Call  + Business Logic + D/B connectors  + SQl db / NoSQL
+								(RPC)
+
+				HTML pages		+ REST API			+ Core logic  + database drivers + database 
+																						(tables,
+																						 records,
+																						 stored procedures,
+																						 triggers)
+
+
+				UI components	  Remote Logic 
+				UI Routing
+				
+
+
+
+Web Technologies:
+					Runtime  + Language + set of libraries + framework
+					Java
+					Python
+					Node JS
+					Go
+					dotnet
+
+		
+					php
+					node js + express js
+					java	+ JSP
+					C#		+  asp.net
+					vbscript+  asp
+					python  +  dJango
+					C++		+  ISAPI (internet server application programming interface)
+
+public
+		  images
+						 tfl.jpg
+						 welcome.jpg
+
+Web Pages
+
+					index.html
+					aboutus.html
+					contact.html
+					services.html
+
+server.js
+
+
+Package manager
+
+
+		 npm install  express
+		 npm install  mysql
+		 npm install  mongoose
+		 npm install  angular
+		 npm install ........
+
+
+package.json
+
+my new web app---------node js
+
+		 package.json
+					express
+		 server.js
+		 public
+				   index.html
+				   aboutus.html
+					contact.html
+				   services.html
+					images
+						   welcome.jpg
+							tfl.jpg
+
+
+
+my new web app---------java
+			pom.xml
+					spring
+			HomeController.java
+			WEB-INF
+					 index.html
+				   aboutus.html
+					contact.html
+				   services.html
+					images
+						   welcome.jpg
+							tfl.jpg
+				
+
+
+
+
+
+
+
+                                                                                    
