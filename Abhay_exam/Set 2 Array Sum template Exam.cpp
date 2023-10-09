@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 #include<string.h>
-template<class X> //template array
+template<class X> //template array 
  arrayaddition(X arr[],int &a){  //addition function in template
  	int sum=0;
  	arr[a];
