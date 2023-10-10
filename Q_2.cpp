@@ -12,7 +12,7 @@ class String
 	      length=0;   	
 	   }	
 	   
-	   String operator=(String &s)
+	   String operator=(String &s) //assignment op
 	   {
 	   	  length=strlen(s.ptr);
 	   	  delete [] ptr; //memory delete
