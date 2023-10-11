@@ -1,5 +1,8 @@
 /*one array + compare one element to each other and 
 if sum of two element is 6 then prints element
+o/p ->
+i : 1 j :5
+i : 5 j :1
 
 */
 #include<iostream>

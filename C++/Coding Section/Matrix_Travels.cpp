@@ -1,3 +1,4 @@
+//op=  5  11  6  12  8  7  9  13  17
 
 #include<iostream>
 using namespace std;
