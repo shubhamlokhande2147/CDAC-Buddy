@@ -3,7 +3,7 @@ float area(float* ,float*);
 float area1(float r);
 const float pi= 3.142f;
 
-void main()
+void main() 
 {
     float len,bre,total;
 
