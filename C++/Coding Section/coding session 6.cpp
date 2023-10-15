@@ -7,23 +7,33 @@ int main()
     cout<<"enter size of array : "<<endl;
     cin>>n;
 
-    char arr[n],temp[n];
+    char arr[n];
+	char temp1[n];
+	int temp2[n];
     for(i=0;i<n;i++)
     {
         cin>>arr[i];
     }
 
-    for(j=0;j<n;j++)
+    for(i=0;i<n;i++)
     {
-        if(arr[i] <= 9)
-        {
-            temp[j] = arr[i];
-        }
+           if((arr[i] >= 97 && arr[i] <= 122) || (arr[i] >= 65 && arr[i] <= 90))
+              {
+                 temp1[i] = arr[i];
+			  }
+			  else
+			  {
+			     temp2[i] = arr[i];
+			  }
     }
 
-    for(k=0;k<n;k++)
+    for(i=0;i<n;i++)
     {
-        cout<<temp[k];
+        cout<<"String : "<<temp1[i]<<","<<endl;
+    }
+     for(i=0;i<n;i++)
+    {
+        cout<<"Number : "<<temp2[i]<<","<<endl;
     }
 
 
