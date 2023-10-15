@@ -193,3 +193,9 @@ select * from emp simple join dept using(pwd) ;
 select e.ename ,e.pwd ,d.loc,d.dname from emp e right outer join dept d on e.deptno=d.deptno;
 select e.ename ,e.pwd ,d.loc,d.dname from dept d left outer join emp e on e.deptno=d.deptno;
 select e.ename, e.job, ec.name from emp e ,emp_cards ec where e.empno=ec.empid;
+select e.ename, e.job, ec.name from emp e right outer join emp_cards ec on e.empno=ec.empid;
+select e.ename, e.job, ec.name from emp e left outer join emp_cards ec on e.empno=ec.empid;
+
+-- self jpin --
+select e1.ename, e2.ename from emp e1, emp e2 where e1.mgr=e2.empno;
+select e1.empno ,e1.ename, e2.mgr, e2.ename from emp e1, emp e2 where e1.mgr=e2.empno;
