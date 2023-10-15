@@ -127,3 +127,44 @@ select job,count(*),sum(sal) from emp group by job ;
 select job,count(*),sum(sal) from emp group by job having sum(sal)>10000;
 select job,count(*),sum(sal)r1 from emp group by job having r1>10000;      
 select job,count(*),sum(sal)r1 from emp group by job having job like 'c%' ;
+
+
+-- Aggregate functions --
+
+/*  sum,avg,count,min,max  */
+
+select sum(sal) from emp;
+select avg(sal) from emp;
+select count(sal) from emp;
+select min(sal) from emp;
+select max(sal) from emp;
+select sum(sal),avg(sal),min(sal),max(sal),count(sal),count(*) from emp;
+
+
+-- window functions --
+
+/* row_number() over(), rank() over(), dense_rank(), rand()  */
+
+select row_number() over() r1,ename,sal from emp ;
+select row_number() over(order by sal) r1,ename,sal from emp ;
+
+select rank() over()r1,ename,job,sal from emp ;
+select rank() over(order by sal)r1,ename,job,sal from emp ;
+select rank() over(partition by job order by sal)r1,ename,job,sal from emp ;
+select rank() over(partition by job order by sal)r1,ename,job,sal from emp ;
+select dense_rank() over(partition by job order by sal)r1,ename,job,sal from emp ;
+
+--  joins --
+/*
+   crossjoin, 
+   innerjoin, 
+   natualjoin, 
+   simplejoin,
+   outerjoin - leftouterjoin,rightouterjoin,
+   selfjoin 
+*/
+-- crossjoin --
+select * from emp,dept;    
+select e.ename,p.dname,e.deptno,p.deptno from emp e,dept p where e.deptno=p.deptno ;
+select e.ename,p.dname,e.deptno,p.deptno from emp e,dept p where e.deptno=p.deptno order by ename ;
+select e.ename,p.dname,e.deptno,p.deptno from emp e,dept p where e.deptno=p.deptno order by dname ;
