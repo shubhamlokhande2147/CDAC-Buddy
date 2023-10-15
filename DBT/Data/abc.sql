@@ -180,3 +180,16 @@ select e.ename, d.dname, e.job, e.sal  from emp  e, dept d  where e.deptno=d.dep
 select e.ename, d.dname, e.job, e.sal  from emp  e inner join dept d  where e.deptno=d.deptno ;
 select c.name,c.address, s.sname, s.comm from customer c inner join salespeople s ;
 select c.name,c.address, s.sname, s.comm from customer c inner join salespeople s order by s.sname ;
+
+-- natural join --
+select * from emp natural join dept;
+select * from customer natural join sales ;
+
+-- simple join --
+select * from emp simple join dept using(deptno) ;
+select * from emp simple join dept using(pwd) ;
+
+-- outer join --
+select e.ename ,e.pwd ,d.loc,d.dname from emp e right outer join dept d on e.deptno=d.deptno;
+select e.ename ,e.pwd ,d.loc,d.dname from dept d left outer join emp e on e.deptno=d.deptno;
+select e.ename, e.job, ec.name from emp e ,emp_cards ec where e.empno=ec.empid;
