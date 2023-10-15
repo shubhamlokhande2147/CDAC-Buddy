@@ -168,3 +168,15 @@ select * from emp,dept;
 select e.ename,p.dname,e.deptno,p.deptno from emp e,dept p where e.deptno=p.deptno ;
 select e.ename,p.dname,e.deptno,p.deptno from emp e,dept p where e.deptno=p.deptno order by ename ;
 select e.ename,p.dname,e.deptno,p.deptno from emp e,dept p where e.deptno=p.deptno order by dname ;
+select * from  menucard,softdrink;
+select m.name,s.name from  menucard m,softdrink s;
+select m.name menu ,s.name softdrink,(m.rate + s.rate) Rate from  menucard m,softdrink s;
+select m.name menu ,s.name softdrink,(m.rate + s.rate) Rate from  menucard m cross join softdrink s;
+select e.ename,s.name from emp e  inner join softdrink s order by s.name;
+
+-- innerjoin --
+select e.ename, d.dname, e.job, e.sal  from emp  e inner join  dept d  ;
+select e.ename, d.dname, e.job, e.sal  from emp  e, dept d  where e.deptno=d.deptno ;
+select e.ename, d.dname, e.job, e.sal  from emp  e inner join dept d  where e.deptno=d.deptno ;
+select c.name,c.address, s.sname, s.comm from customer c inner join salespeople s ;
+select c.name,c.address, s.sname, s.comm from customer c inner join salespeople s order by s.sname ;
