@@ -126,3 +126,4 @@ select job,count(*),sum(sal) from emp group by job ;
 
 select job,count(*),sum(sal) from emp group by job having sum(sal)>10000;
 select job,count(*),sum(sal)r1 from emp group by job having r1>10000;      
+select job,count(*),sum(sal)r1 from emp group by job having job like 'c%' ;
