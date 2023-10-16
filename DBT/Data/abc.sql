@@ -231,4 +231,4 @@ select ename, sal from emp where sal  < (select max(sal) from emp)order by sal d
 select ename,job,sal from emp where sal = (select distinct sal from emp order by sal desc limit 3,1);
 select distinct * from (select deptno, if(deptno=10,'x',if(deptno=20,'y',NULL))r1 from emp) e;
 select distinct * from (select deptno, if(deptno=10,'x',if(deptno=20,'y',NULL))r1 from emp) e where r1 is not null;
-
+select distinct * from (select deptno, if(deptno=10,'x',if(deptno=20,'y',NULL))r1 from emp) e where r1 is not null;
