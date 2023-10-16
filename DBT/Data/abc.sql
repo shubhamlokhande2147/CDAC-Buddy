@@ -199,3 +199,16 @@ select e.ename, e.job, ec.name from emp e left outer join emp_cards ec on e.empn
 -- self jpin --
 select e1.ename, e2.ename from emp e1, emp e2 where e1.mgr=e2.empno;
 select e1.empno ,e1.ename, e2.mgr, e2.ename from emp e1, emp e2 where e1.mgr=e2.empno;
+
+-- subquery --
+/* scaler, virtual/derived, nested  */
+
+-- scaler --
+select (select sal from emp where ename='jones') - (select sal from emp where ename='james') diff;
+select (select sum(sal) from emp) - (select sum(sal) from emp) diff;
+select (select sum(sal) from emp where deptno=20) - (select sum(sal) from emp where deptno=10) diff;
+select abs( (select sum(sal) from emp where deptno=10) - (select sum(sal) from emp where deptno=20)) diff;
+select (select sum(sal) from emp where deptno=10)sal1 , (select sum(sal) from emp where deptno=20) sal2;
+
+-- virual --
+select * from (select * from dept)e;
