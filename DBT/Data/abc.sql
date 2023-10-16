@@ -212,3 +212,23 @@ select (select sum(sal) from emp where deptno=10)sal1 , (select sum(sal) from em
 
 -- virual --
 select * from (select * from dept)e;
+select * from (select ename ,job,sal,comm from emp)e;
+select * from (select row_number() over()r1 , ename ,job,sal,comm from emp)e where r1>15 ;
+select * from (select row_number() over()r1 , ename ,job,sal,comm from emp)e where r1=24 ;
+select row_number() over()r2 ,ename,job,sal,comm,r1  from (select row_number() over()r1 , ename ,job,sal,comm from emp)e ; 
+select max(r1) from (select max(sal)r1 from emp)e;
+select min(r1) from (select min(sal)r1 from emp)e;
+select job,r1 from (select job,count(*)r1 from emp group by job)e;
+select * from (select ename,job,sal,comm,dense_rank() over(order by sal )r1 from emp)e;
+select * from (select ename,job,sal,comm,dense_rank() over(order by sal )r1 from emp)e where r1=2;
+
+-- nested --
+select ename,job,sal from emp where deptno = (5+5);
+select ename,sal from emp where sal > (select sal from emp where ename='jones');
+select ename,hiredate from emp where hiredate > (select hiredate from emp where ename='jones');
+select ename,sal from emp where sal  <= (select max(sal) from emp); 
+select ename, sal from emp where sal  < (select max(sal) from emp)order by sal desc; 
+select ename,job,sal from emp where sal = (select distinct sal from emp order by sal desc limit 3,1);
+select distinct * from (select deptno, if(deptno=10,'x',if(deptno=20,'y',NULL))r1 from emp) e;
+select distinct * from (select deptno, if(deptno=10,'x',if(deptno=20,'y',NULL))r1 from emp) e where r1 is not null;
+
