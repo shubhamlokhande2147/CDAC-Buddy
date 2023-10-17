@@ -5,8 +5,7 @@ CREATE PROCEDURE pro1(name varchar(200))
 BEGIN
         DECLARE a INT;
         set a=0;
-        DECLARE countdigit int;
-        set countdigit=0;
+
         set @x=" ";
         set @y=" ";
 
