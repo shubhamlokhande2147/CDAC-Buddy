@@ -1,19 +1,15 @@
-DROP PROCEDURE if EXISTS addQualification ;
+   
+DROP PROCEDURE IF EXISTS addQualification;
 delimiter $
-CREATE PROCEDURE addQualification(studid int, id int, nm varchar(20),clg varchar(20),unity varchar(20),mrks varchar(20),year int)
-BEGIN
-           DECLARE flag bool;
-             SELECT true into flag from student where id = studid; 
-             if flag THEN
-                  insert into student_qualifications(id,studentID,name,college,university,marks,year) values (id,studid,nm,clg,unity,mrks,year);
-                  SELECT "Date Inserted";
-              
-              else                               
-                 SELECT "Student Present" as 'ERROR';
-
-
-             end if;  
-
-        
-END $
-delimiter ;    
+ CREATE PROCEDURE addQualification( id int,pstudentID  int, name varchar(20),college varchar(20),university varchar(50) ,marks int,year1 varchar(10))
+ BEGIN
+	declare  x bool;
+	select true into  x from  student s where s.ID=pstudentID;
+    IF  x=true then 
+	insert into student_qualifications VALUES(id,pstudentID,name,college,university,marks,year1);
+	select "Record inserted";
+	else 
+	 select "Student not found";
+	end if;
+ end $
+ delimiter ;
