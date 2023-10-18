@@ -1,16 +1,16 @@
 
 DROP PROCEDURE if EXISTS checkUser ;
 delimiter $
-CREATE PROCEDURE checkUser(p varchar (50))
+CREATE PROCEDURE checkUser(p varchar (50),message varchar (200))
 BEGIN
      DECLARE flag bool;
              SELECT true into flag from login where emailid=p;
              if flag THEN
-               SET @x:=concat("SELECT * from login where emailid=p") ;
-               prepare z from @x;
-               execute z;
+                 SELECT username,password from login;
+              
             else
-               SELECT "ERROR";
+                 INSERT into log (curr_date,curr_time,message) values (current_date(),current_time(),message);
+               SELECT "Data inserted";
              end if;       
 END $
 delimiter ;        
