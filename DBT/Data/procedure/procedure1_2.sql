@@ -5,24 +5,20 @@ CREATE PROCEDURE pro1(str varchar(50))
 BEGIN
 
    declare x int ;
-   declare y int;
-   declare z varchar (50);
-
    set x:=0;
-   set y:=0;
-   set y:=length(str);
-   set z=" ";
-
+   set @t=" ";
+ 
              lb1:LOOP
              set x:=x+1;
-                
-               if x <= y THEN 
-                  SELECT concat(z,group_concat(SUBSTRING(str, x, 1),',')) as string;
-             else            
+            set @s= SUBSTRING(str, x, 1);
+             
+                 set @t = concat(@t,@s,",");
+               if x > length(str)-1 
+               THEN            
                leave lb1;
-            
              end if;
                end LOOP lb1; 
+               select @t;
               
 END $
 delimiter ;        
