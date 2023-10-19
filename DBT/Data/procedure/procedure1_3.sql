@@ -16,18 +16,20 @@ BEGIN
 
                if(@x BETWEEN 'a' AND 'z') THEN 
                    set @y:=concat(@y,@x);
-                   SELECT @y As String;
-            
-               else 
+                     end if;
+               if(@x BETWEEN '0' AND '9') THEN 
                     set @z:=concat(@z,@x);
-                    SELECT @z As Number;  
-
+                    end if;
+                    
                     if a > LENGTH(name)-1 THEN
                     leave lb;
                     end if; 
                
-               end if;                 
+                                
         end LOOP lb;
+                           SELECT @y As String;
+                           SELECT @z As Number;  
+
 
 END $
 delimiter ;        
