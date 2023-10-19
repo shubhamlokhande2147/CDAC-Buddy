@@ -1,24 +1,35 @@
 
 DROP PROCEDURE if EXISTS pro1 ;
 delimiter $
-CREATE PROCEDURE pro1(str varchar(50))
+CREATE PROCEDURE pro1(name varchar(200))
 BEGIN
+        DECLARE a INT;
+        set a=0;
 
-   declare x int ;
-   set x:=0;
-   set @t=" ";
- 
-             lb1:LOOP
-             set x:=x+1;
-            set @s= SUBSTRING(str, x, 1);
-             
-                 set @t = concat(@t,@s,",");
-               if x > length(str)-1 
-               THEN            
-               leave lb1;
-             end if;
-               end LOOP lb1; 
-               select @t;
-              
+        set @x=" ";
+        set @y=" ";
+        set @z=" ";
+
+        lb:LOOP
+           set a =a+1;
+           set @x = substring(name,a,1);
+
+               if(@x BETWEEN 'a' AND 'z') THEN 
+                   set @y=concat(@y,@x);
+                   SELECT @y;
+
+                         
+               if(@x BETWEEN 0 AND 9) 
+                    set @z=concat(@z,@x);
+                    SELECT @z;
+                  
+
+                    if a > LENGTH(name)-1 THEN
+                    leave lb;
+                    end if; 
+               
+               end if;                 
+        end LOOP lb;
+
 END $
 delimiter ;        
