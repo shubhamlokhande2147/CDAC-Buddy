@@ -1,4 +1,4 @@
-//date 18-10-2023
+k//date 18-10-2023
 
 /* erver connect commmand-
 C:\Users\shubh>mongod --dbpath="C:\MongoDBdata" --bind_ip=192.168.233.140
@@ -12,7 +12,16 @@ C:\Users\shubh>mongosh --host=192.168.209.140 --port=27017
 /*
 Enterprise noSQL> show databases;
 Enterprise noSQL> use noSql
+Enterprise noSQL> show collections;
+Enterprise noSQL> db.emp.find();
+Enterprise noSQL> db.moives.find();
+Enterprise noSQL> db.createCollection('sample');
+Enterprise noSQL> db.collection.drop('sample');
 
+Enterprise noSQL> db.emp.distinct('job');
+Enterprise noSQL> db.emp.find({},{_id:false,ename:true});
+Enterprise noSQL> db.emp.find({},{_id:false,ename:true}).limit(5
+Enterprise noSQL> db.emp.find({},{_id:false,ename:true}).skip(3).limit(2);
 
 */
 //date 19-10-2023
