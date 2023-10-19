@@ -16,13 +16,11 @@ BEGIN
 
                if(@x BETWEEN 'a' AND 'z') THEN 
                    set @y=concat(@y,@x);
-                   SELECT @y;
-
-                         
-               if(@x BETWEEN 0 AND 9) 
+                   SELECT @y As String;
+            
+               else 
                     set @z=concat(@z,@x);
-                    SELECT @z;
-                  
+                    SELECT @z As Number;  
 
                     if a > LENGTH(name)-1 THEN
                     leave lb;
