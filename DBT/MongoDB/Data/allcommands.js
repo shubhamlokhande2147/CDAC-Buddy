@@ -1,5 +1,21 @@
+//date 18-10-2023
 
-//date- 19-10-23
+/* erver connect commmand-
+C:\Users\shubh>mongod --dbpath="C:\MongoDBdata" --bind_ip=192.168.233.140
+ 
+client connect command-
+C:\Users\shubh>mongosh --host=192.168.209.140 --port=27017
+*/
+
+
+//commands-
+/*
+Enterprise noSQL> show databases;
+Enterprise noSQL> use noSql
+
+
+*/
+//date 19-10-2023
 db.book.insertOne({
     _id: 2,
     title: 'wing of fire',
