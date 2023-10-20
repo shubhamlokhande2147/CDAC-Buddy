@@ -5,11 +5,12 @@ CREATE PROCEDURE pro1(name varchar(200))
 BEGIN
         DECLARE a INT;
         set a=0;
+        
 
         set @x=" ";
         set @y=" ";
         set @z=" ";
-
+        
         lb:LOOP
            set a =a+1;
            set @x = substring(name,1,1);
@@ -17,7 +18,7 @@ BEGIN
            set @z = substring(name,5);
 
 
-               set @p := concat(@x,'(',@y,')','is',@z); 
+               set @p := concat(@x,'(',@y,')',' is ',@z); 
 
 
                     if a > LENGTH(name)-1 THEN
