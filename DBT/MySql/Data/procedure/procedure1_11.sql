@@ -2,14 +2,18 @@ drop procedure if exists que11;
 delimiter $
 create procedure que11()
 BEGIN
-    --  set @dno=0;
-    --     set @p="select deptno from emp where empno=1";
-    --     prepare p1 from @p;
-    --     execute p1;
-    --     lbl:LOOP
-        
+   
+        	-- DECLARE _deptno int;
+            -- 	DECLARE c1 cursor for select deptno from dept;
+            -- open c1;
+            -- lbl :Loop 
+	        -- FETCH c1 into _deptno;
+            -- select _deptno;
+
            select concat(deptno,' -> ',group_concat(ename)) from emp group by deptno ;
---    leave lbl;
---         end LOOP lbl;
+           
+        --    end Loop lbl;
+        --    close c1;
+
 end $
 delimiter ;
