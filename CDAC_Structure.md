@@ -16,6 +16,17 @@
     - NAmespace, Template,Enumration, RTTI, STL
 
   2) SDM :
+      - S/W :Github : Create Account
+      - Software Devlopment Lifecycle(SDLC) : Requirement,software Requirement Specificatin (SRS) Document,Desig, Implementation, Testing, Deployment,Maintainance
+      - SDLC Models
+      - S/W : JIRA : Create Account
+      - Software Design Principles
+      - S/W : AWS : Create Account
+      - S/W : Putty : Download
+      - Deployment a Website on server using AWS
+      - Docker, Container
+      - AWS Deployment using shell Scripting
+       
      OS :
       - Introduction of OS
       - History,Features of OS
@@ -23,10 +34,11 @@
       - Components of OS
       - Types of Kernel : Monolithic, Micro, Hybrid, EXO
       - Types of OS : Batch, Distributed, Multitasking, Network, Real Time, Mobile
+      - Shell Scripting
     
           
   4) DBT :  
-     - s/w : MYSQL,MONGODB
+     - S/W : MYSQL,MONGODB
      - DBMS
      - RDMS
      - ORDBMS
