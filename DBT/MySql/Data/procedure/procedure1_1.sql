@@ -1,4 +1,7 @@
 
+/* all procedure sselect sirji_table database  */
+
+
 DROP PROCEDURE if EXISTS pro1 ;
 delimiter $
 CREATE PROCEDURE pro1(str varchar(50))
