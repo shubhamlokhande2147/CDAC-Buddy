@@ -1,3 +1,6 @@
+/* use campus database*/
+
+
 drop trigger if exists sunday;
 delimiter $
 create trigger sunday before insert on student for each row

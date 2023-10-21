@@ -1,3 +1,4 @@
+/* use campus database*/
 
 
 drop trigger if exists deltrig;
