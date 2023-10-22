@@ -232,3 +232,40 @@ select ename,job,sal from emp where sal = (select distinct sal from emp order by
 select distinct * from (select deptno, if(deptno=10,'x',if(deptno=20,'y',NULL))r1 from emp) e;
 select distinct * from (select deptno, if(deptno=10,'x',if(deptno=20,'y',NULL))r1 from emp) e where r1 is not null;
 select distinct * from (select deptno, if(deptno=10,'x',if(deptno=20,'y',NULL))r1 from emp) e where r1 is not null;
+
+
+/* 
+  view - simple ,complex
+
+*/
+
+
+select * from dept;
+create or replace view v1 as select * from dept;
+show full tables;
+select * from v1;
+create or replace view v2 as select deptno,dname,startedon from dept;
+insert into v1 values(1,1,1,1,1);
+insert into v2 values(2,2);
+select * from dept;
+update v2 set loc='kolhapur' where deptno=2;
+
+select empno,ename,job,deptno from emp; 
+create or replace view v3 as select empno,ename,job,deptno from emp where deptno=10;
+update v3 set job='SALESMANAGER' where ename='AARAV';  
+select * from v3;  
+select * from emp where deptno=10;
+
+create or replace view v4 as select * from emp;
+alter table emp add column c1 int;
+select * from v4; -- no add c1 column in v4
+
+-- view with alias nm
+create or replace view v5 as select deptno,dname 'Department name' from dept;
+select * from v5;
+
+create table x1(c1 int ,c2 int);  
+create or replace view x2 as select c1,c2 ,c1+c2 R1 from x1;
+insert into x1(c1,c2) values(10,10);
+select * from x1;
+select * from x2;  
