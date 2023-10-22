@@ -14,11 +14,11 @@ delimiter ;
 */
 drop function if exists f2 ;
 delimiter $ 
-create function f2() return table 
+create function f2() return int 
 deterministic
 begin 
 select * from dept;
-    RETURN 0  ;
+    RETURN 0;
 
 end $
 delimiter ;
