@@ -1,5 +1,5 @@
 
-/*  use sirji_table db  */
+/*  use sirji_table  */
 
 Drop function if exists sumSalaty ;
 delimiter $
