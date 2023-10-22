@@ -1,3 +1,6 @@
+
+/*  use sirji_table db  */
+
 Drop function if exists sumSalaty ;
 delimiter $
 create function sumSalaty(_deptno int ) returns int 
