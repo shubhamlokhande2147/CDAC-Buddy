@@ -51,8 +51,8 @@ delimiter $
 create function f1() returns int 
 deterministic
 begin
-          return call pro1();
-          
+          call pro1();
+          return 1;
      
 end $
 delimiter ;
@@ -63,7 +63,7 @@ create procedure pro1()
 begin
         declare z int;
         set z:=0;
-        select max(sal) into z from emp;
+        select max(sal) into z from emp limit 1,1;
         select z;
 end $
 delimiter ;
