@@ -1,3 +1,5 @@
+ 
+ 
  mysql -u root -p
  Enter password: 
 show databases;  
