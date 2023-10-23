@@ -303,3 +303,8 @@ select bookname from books intersect all select bookname from newbooks;
 
 select bookname from books except select bookname from newbooks;
 select bookname from books except all select bookname from newbooks;
+
+select o.bookname , n.bookname from books o left outer join newbooks n on o.bookname=n.bookname;  
+select o.bookname , n.bookname from books o right outer join newbooks n on o.bookname=n.bookname;    
+select o.bookname , n.bookname from books o left outer join newbooks n on o.bookname=n.bookname union select o.bookname , n.bookname from books o right outer join newbooks n on o.bookname=n.bookname;
+select o.bookname , n.bookname from books o left outer join newbooks n on o.bookname=n.bookname intersect select o.bookname , n.bookname from books o right outer join newbooks n on o.bookname=n.bookname;
