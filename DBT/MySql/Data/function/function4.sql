@@ -1,14 +1,17 @@
-/*  use campus db  */
+/* use campus */
 
-drop FUNCTION if exists calculate_sum ;
+drop function if exists calculate_sum ;
 delimiter $
-create FUNCTION calculate_sum(_sid int) returns int
-deterministic
-BEGIN
-declare msum int;
-set msum:=0;
-	SELECT sum(marks) into msum from student s join student_qualifications sq on s.id=sq.studentid where s.id=_sid;
-	
-	return  msum;
+create function calculate_sum(_sid int) returns int
+DETERMINISTIC
+begin
+
+   declare x int;
+   set x :=0;
+    
+	SELECT sum(marks) into x from student s join student_qualifications sq on s.id=sq.studentid where s.id=_sid;
+	     return x;
+
+ 
 end $
 delimiter ;
