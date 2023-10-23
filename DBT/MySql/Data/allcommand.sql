@@ -269,3 +269,37 @@ create or replace view x2 as select c1,c2 ,c1+c2 R1 from x1;
 insert into x1(c1,c2) values(10,10);
 select * from x1;
 select * from x2;  
+
+
+/* stored variabe */
+
+set @x1:=now();
+select @x1;
+
+select 10+10 into @x2;
+select @x2;
+
+set 10+20, 10*20 into @x3,@x4;    
+select @x1,@x2,@x3,@x4;
+
+select ename into @x5 from emp limit 1 ;
+select @x5;
+
+select max(sal) into @x6 from emp limit 1;
+select @x6;
+
+select max(sal),min(sal) into @x6,@x7 from emp limit 1;
+select @x6,@x7;
+
+/* subsets : union ,intersection */
+select * from books;
+select * from newbooks;
+
+select bookname from books union select bookname from newbooks;
+select bookname from books union all select bookname from newbooks;
+
+select bookname from books intersect select bookname from newbooks;
+select bookname from books intersect all select bookname from newbooks;
+
+select bookname from books except select bookname from newbooks;
+select bookname from books except all select bookname from newbooks;
