@@ -51,20 +51,20 @@ delimiter $
 create function f1() returns int 
 deterministic
 begin
-          call pro1();
-          return 10;
+          return call pro1();
+          
      
 end $
 delimiter ;
 
-Drop function if exists pro1 ;
+Drop procedure if exists pro1 ;
 delimiter $
-create function pro1()
+create procedure pro1() 
 begin
         declare z int;
         set z:=0;
         select max(sal) into z from emp;
-     
+        select z;
 end $
 delimiter ;
 
