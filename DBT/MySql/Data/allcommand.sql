@@ -308,3 +308,41 @@ select o.bookname , n.bookname from books o left outer join newbooks n on o.book
 select o.bookname , n.bookname from books o right outer join newbooks n on o.bookname=n.bookname;    
 select o.bookname , n.bookname from books o left outer join newbooks n on o.bookname=n.bookname union select o.bookname , n.bookname from books o right outer join newbooks n on o.bookname=n.bookname;
 select o.bookname , n.bookname from books o left outer join newbooks n on o.bookname=n.bookname intersect select o.bookname , n.bookname from books o right outer join newbooks n on o.bookname=n.bookname;
+select o.bookname , n.bookname from books o left outer join newbooks n on o.bookname=n.bookname except select o.bookname , n.bookname from books o right outer join newbooks n on o.bookname=n.bookname;
+
+
+/* group concat */
+select job,group_concat(ename) from emp group by job;
+select deptno,group_concat(ename) from emp group by deptno;
+
+/* index : clustered and non-clustered */
+
+select empno,ename,job,sal from emp;
+explain select empno,ename,job,sal from emp; 
+
+select empno,ename,job,sal from emp where job='manager'; 
+explain select empno,ename,job,sal from emp where job='manager';  --all records are check
+
+select empno,ename,job,sal from emp where empno=7788; 
+explain select empno,ename,job,sal from emp where empno=7788;      --1 records are chesk ,bcoz pk assign to empno
+
+create index ind1 on emp(job);
+select empno,ename,job,sal from emp where job='manager';
+explain select empno,ename,job,sal from emp where job='manager';  --5 records are chesk ,bcoz in1 index is assign to job
+show indexes from emp;
+desc emp;
+
+create table x(c1 int ,c2 int);
+create index ind2 on x(c2);
+show indexes from x;
+desc x;
+insert into x values (2,2);
+insert into x values (2,2);
+explain select * from x where c1=1;  --all row are checks
+explain select * from x where c1=1;  --1 row is check,bcoz ind 2 assign to c2 column
+
+drop index ind2 on x;  --drop index
+
+create unique index ind2 on x(c2);
+show indexes from x;
+insert into x values (33,33);
