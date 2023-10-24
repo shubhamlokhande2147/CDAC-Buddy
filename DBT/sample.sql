@@ -147,7 +147,7 @@ delimiter $
 create procedure p1(_cid int)
 begin 
   
-      select c.cname,o.* from customers c join orders o on c.cnum=o.cnum where c.cnum=cid;
+      select c.cname,o.* from customers c join orders o on c.cnum=o.cnum where c.cnum=_cid;
 
 end $
 delimiter ;
