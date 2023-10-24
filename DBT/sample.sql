@@ -113,7 +113,44 @@ create table sadr(id int,studid int unique not null,adr varchar(20),foreign key(
 drop all tables;
 */
 
+/*
 
+drop procedure if exists p1 ;
+delimiter $
+create procedure p1(str varchar(20))
+begin 
+     
+     set @x=" ";
+     set @y=" ";
+     set @z=" ";
+     set @p=" ";
+
+         set @x=substring(str,1,1);
+         set @y=substring(str,2,4);
+         set @z=substring(str,6);
+       
+       
+       set @p:=concat(@x,'(',@y,') is ',@z);
+       select @p;
+
+         
+
+end $
+delimiter ;
+
+
+*/
+
+
+drop procedure if exists p1 ;
+delimiter $
+create procedure p1(_cid int)
+begin 
+  
+      select c.cname,o.* from customers c join orders o on c.cnum=o.cnum where c.cnum=cid;
+
+end $
+delimiter ;
 
 
 
