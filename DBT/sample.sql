@@ -56,6 +56,7 @@ delimiter ;
 
 */
 
+/*
 
 drop procedure if exists p2 ;
 delimiter $
@@ -91,21 +92,26 @@ end if;
 end$
 delimiter ;
 
+*/
 
 
+/*
 
+crse
+stnt
+sphone
+sadr
 
+create table crse (id int ,name varchar(20),duration varchar(20),summary varchar(20));
 
+create table stnt(id int,namefirst varchar(20),namelast varchar(20),dob date,emaild varchar(20));        
 
+create table sphone(id int primary key,studid int,num varchar(20),isactive bool,foreign key(studid) references stnt(id));
 
+create table sadr(id int,studid int unique not null,adr varchar(20),foreign key(studid) references stnt(id));
 
-
-
-
-
-
-
-
+drop all tables;
+*/
 
 
 
