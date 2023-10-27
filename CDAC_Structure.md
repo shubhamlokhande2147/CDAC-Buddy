@@ -1,7 +1,7 @@
 # Modules -> 
              C++, SDM, DBT, OOPs with JAVA
 
-1) C++ :
+1) C++ : (15 Days)
     - S/W : Dev++
     - Features of oops
     - Operators,Loops,Conditional/jump in statements
@@ -15,7 +15,7 @@
     - Exception Handling
     - NAmespace, Template,Enumration, RTTI, STL
 
-  2) SDM :
+  2) SDM :  (21 Days)
       - S/W :Github : Create Account
       - Software Devlopment Lifecycle(SDLC) : Requirement,software Requirement Specificatin (SRS) Document,Desig, Implementation, Testing, Deployment,Maintainance
       - SDLC Models
@@ -37,7 +37,7 @@
       - Shell Scripting
     
           
-  4) DBT :  
+  4) DBT :   (21 Days)
      - S/W : MYSQL,MONGODB
      - DBMS
      - RDMS
@@ -52,4 +52,8 @@
      - Normalization
      - NOsql : Introduction to MongoDB
   
-  5) OOPs with JAVA
+  5) OOPs with JAVA :  (  Days)
+     - Introduction of oops features and java
+     - command line argment
+     - string functions
+     - oops : abstraction,encapsulation
