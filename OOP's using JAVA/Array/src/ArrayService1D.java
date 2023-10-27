@@ -1,6 +1,6 @@
 import java.util.Scanner;
-
-public class ArrayService1D {
+  
+public class ArrayService1D  {
 
 	public static void Accepttdata(int[] arr1)
 	{
