@@ -2,33 +2,49 @@ import java.util.*;
 public class stringclass {
 
 	public static void main(String[] args) {
-		String str1="Hello";
-		String str2="Hello";
-		String str3=new String("Hello");
-		System.out.println("str1==str2"+(str1==str2));//true
-		System.out.println("str1.equals(str2)"+(str1.equals(str2))); //true
-		System.out.println("str1==str3"+(str1==str3)); //false
-		System.out.println("str1.equals(str3)"+(str1.equals(str3))); //true 
-		String str4="Hella";
-		String str5="he";
-		System.out.println("str1==str4"+(str1==str4));
-		System.out.println("str1==str4"+(str1.equals(str4)));
-		System.out.println("compare to "+(str1.compareTo(str4))); // +ive
-		System.out.println("compare to "+(str1.compareTo(str2)));
-		System.out.println("compare to"+(str1.compareTo(str5))); //-ive
-		String str6=str1+" World!";
-		System.out.println(str6);
-		char p[]= {'1','2','3','4','5'}; //converting char array to string
-		String str7=new String(p);
-		System.out.println(str7);
-		System.out.println(str1.charAt(1)); //e
-		System.out.println(str1.length()); //return length
-		System.out.println(str1.substring(2));
-		System.out.println(str1.substring(1,4));
-		System.out.println(str6.contains(str1)); // true  find string if got return true else false
 		
+	
+		String s1 = new String("Shubham Kiran Lokhande"       );
+		String s2 = new String("abc pqr xyz");
+		String s3;
 		
+		System.out.println(s1.charAt(10));  //char at this position
+		System.out.println(s1.codePointAt(10)); //ascii val off this position
+		System.out.println(s1.codePointBefore(10)); //ascii of previous char at position
+		System.out.println(s1.codePointAt(10));
 		
+		System.out.println(s1.compareTo(s2));  //display here substraction of ascii
+		System.out.println(s1.concat(" ").concat(s2)); //concat two strings
 		
+		System.out.println(s1.contains(s2)); //check char of sequence
+		System.out.println(s1.contentEquals(s2)); //check contents
+		
+		//s2=s2.copyValueOf(s1,0,5);
+		//System.out.println(s1.copyValueOf(s2));
+		
+		System.out.println(s1.equals(s2)); //compare both strings
+		System.out.println(s1.equalsIgnoreCase(s2)); //compare two strings with ignaore case sensitivity
+		
+		//System.out.println(s1.format(null, s2, args));
+		//System.out.println(s1.getChars(0, 1, s1, 5));
+		
+		System.out.println(s1.hashCode()); //disp hashcode of s1
+		System.out.println(s1.indexOf(1));
+		System.out.println(s1.lastIndexOf(0));
+		
+		System.out.println(s1.intern()); //show s1
+		System.out.println(s1.isEmpty()); //check string is empty or not
+		System.out.println(s1.length()); //show length of string
+		
+		System.out.println(s1.matches(s1));
+		System.out.println(s1.replace('s','p'));//replace char
+        System.out.println(s1.substring(7,20)); //substring os s1
+
+		System.out.println(s1.toLowerCase());//lowercase
+		System.out.println(s1.toUpperCase());//uppercase
+
+		System.out.println(s1.trim()); //remove whitespaces
+		System.out.println(s1.valueOf("shubham")); //show specified String
+
 	}
 }
