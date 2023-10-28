@@ -69,13 +69,30 @@ public class TeamService {
 			Player[] prr=tarr[i].getPlist();
 			for(int j=0;j<prr.length;j++)
 			{
-				if(prr[i].getPname().equals(pn))
+				if(prr[j].getPname().equals(pn))
 				{
 					return tarr[i];
 				}
 			}
 		}
 		return null;
+	}
+	
+	public static void getBySkill(String sk)   //input: skill and fetch data of player if skill is matched
+	{
+		Player[] parr2 = new Player[10];
+		for(int i=0;i<cnt;i++)
+		{
+			Player[] parr1=tarr[i].getPlist();
+			 for(int j=0; j< parr1.length;j++)
+			 {
+				 if(parr1[j].getSkills().equals(sk))
+				 {
+					    parr2[i]=parr1[j];
+						System.out.println(parr2[i]);;
+				 }
+			 }
+		}
 	}
 	
 

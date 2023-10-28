@@ -9,8 +9,8 @@ public class TestTeam {
 		
 		do {
 		    
-			System.out.println("1. Add new team\n 2. display all teams\n");
-			System.out.println("3. search team by captain\n 4. Search Team by player name\n5.Exit");
+			System.out.print("1.Add new team\n2.display all teams\n");
+			System.out.println("3.search team by captain\n4.Search Team by player name\n5.Search by Skill\n6.Exit");
 			System.out.println("enter your choice : ");
 			choice=sc.nextInt();
 			
@@ -50,9 +50,20 @@ public class TestTeam {
 		    	  	{
 		    	  		System.out.println("Team Not found");
 		    	  	}
+		    	  	break;
+		    	  	
+		      case 5 :
+		    	      System.out.println("Enter skill : ");
+		    	  	  nm=sc.next();
+		    	      TeamService.getBySkill(nm);
+		    	      break;
+                      
+		      case 6 :	  
+		    	      System.out.println("You are exit now..!");
+		    	      System.exit(0);
 		      }
 		
-	      }while(choice !=5); 
+	      }while(true); 
 
 }
 }
