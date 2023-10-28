@@ -2,6 +2,7 @@
 int main()
 {   
     int n1,r,sum=0,temp;
+    
     printf("Enter the first no. : ");
     scanf("%d",&n1);
 
