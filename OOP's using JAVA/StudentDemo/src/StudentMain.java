@@ -5,11 +5,11 @@ public class StudentMain {
 		// TODO Auto-generated method stub
 		Student s1=new Student();
 		System.out.println(s1);
-	//	Student s2=new Student(1,"harsh",100,100,100);
-		//System.out.println(s2);
-		Student s3=new Student("Hero",200,200,200);
+		Student s2=new Student(1,"harsh",100,100,100);
+		System.out.println(s2);
+		Student s3=new Student(2,"Hero",200,200,200);
 		System.out.println(s3);
-		Student s4=new Student("Mandar",500,500,500);
+		Student s4=new Student(3,"Mandar",500,500,500);
 		System.out.println(s4);
 	}
 
