@@ -8,6 +8,7 @@ int main()
 
     temp=n1;
 
+
     while (n1>0)
     { 
        r=n1%10;
