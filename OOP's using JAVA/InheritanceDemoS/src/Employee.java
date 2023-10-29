@@ -51,6 +51,5 @@ abstract public class Employee extends Person
 	public String toString() {
 		return super.toString() + "Employee [department=" + department + ", designation=" + designation + ", doj=" + doj +"]"+"\n";
 	}
-
 	
 }
