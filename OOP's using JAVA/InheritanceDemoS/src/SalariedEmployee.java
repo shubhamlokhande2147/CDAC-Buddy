@@ -38,7 +38,11 @@ public class SalariedEmployee extends Employee
 		this.bonus = bonus;
 	}
 
-
+   public double calculatesal()
+   {
+	   return sal+0.10*sal+0.15*sal-0.08*sal+bonus;
+   }
+	
 	@Override
 	public String toString() {
 		return super.toString() + "SalariedEmployee [sal=" + sal + ", bonus=" + bonus + "]"+"\n";

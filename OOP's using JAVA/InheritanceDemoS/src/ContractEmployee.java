@@ -33,6 +33,12 @@ public class ContractEmployee extends Employee
 		this.charges = charges;
 	}
 
+	public double calculatesal()
+	{
+		return hrs*charges;
+
+	}
+	
 	@Override
 	public String toString() {
 		return super.toString() +  "ContractEmployee [hrs=" + hrs + ", charges=" + charges + "]"+"\n";

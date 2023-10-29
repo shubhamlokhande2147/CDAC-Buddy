@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class Employee extends Person
+abstract public class Employee extends Person
 {
 	private String department;
 	private String designation;
@@ -45,6 +45,10 @@ public class Employee extends Person
 		this.doj = doj;
 	}
 
+	public double calculatesal()  //abstract metnod and make class as abstract
+	{
+		return 0;
+	}
 
 	@Override
 	public String toString() {

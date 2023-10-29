@@ -32,6 +32,11 @@ public class Vendor extends Employee
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
+	
+	public double calculatesal()
+	{
+		return noofemp * amount;
+	}
 
 	@Override
 	public String toString() {
