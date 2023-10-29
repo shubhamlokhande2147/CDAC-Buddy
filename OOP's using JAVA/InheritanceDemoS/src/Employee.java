@@ -6,7 +6,8 @@ abstract public class Employee extends Person
 	private String designation;
 	private LocalDate doj;
 	
-	public Employee() {
+	public Employee() 
+	{
 		super();
 	}
 
