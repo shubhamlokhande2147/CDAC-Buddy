@@ -10,7 +10,6 @@ abstract public class Employee extends Person
 		super();
 	}
 
-	
 	public Employee(int pid, String pname, String mobile, String email, String department, String designation,
 			LocalDate doj) {
 		super(pid, pname, mobile, email);
