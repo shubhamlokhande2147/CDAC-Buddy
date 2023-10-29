@@ -18,7 +18,6 @@ abstract public class Employee extends Person
 		this.doj = doj;
 	}
 
-
 	public String getDepartment() {
 		return department;
 	}
