@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+	
      char *name[5]={"rohan","ram","rahul","rohit","rachana"};
     
 	 for(int i=0;i<5;i++)
