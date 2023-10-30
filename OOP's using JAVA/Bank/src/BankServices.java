@@ -65,8 +65,8 @@ public class BankServices {
         case 1 :
         	if(fd>cstarr[1].getMinbalence())
             {
-        		cstarr[cnt].setcurbal(fd);
         		cstarr[cnt] = new SavingAccount(Bname,minBalence,branch,ifsc,Addr,name,mob,em,ldt,adr,curbal,pin,interest);
+        		cstarr[cnt].setcurbal(fd);
             	cnt++;
             	System.out.println("Saving Account Created");
             	
