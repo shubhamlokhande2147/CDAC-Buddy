@@ -17,12 +17,12 @@ public class BankServices {
 	    cstarr[1] = new SavingAccount("sbi",1000,"vita","IFSC1234","Pune","Shubham","9789684534","shubham@gmail.com",LocalDate.of(2011, 12,03),"Malharpeth",7000,2222,7.8);
 		
 	    cstarr[2] = new SavingAccount("sbi",1000,"vita","IFSC1234","Pune","Pranav","8080637065","pranav@gmail.com",LocalDate.of(2001, 12,03),"kadegaon",750,3333,7.8);
-		
 
 	    cstarr[3] = new CurrentAccount("sbi",1000,"vita","IFSC1234","Pune","Varad","9734284534","varad@gmail.com",LocalDate.of(2011, 12,03),"Malharpeth",8500,4444,1000);
 		
-	    cstarr[4] = new CurrentAccount("sbi",10000,"vita","IFSC1234","Pune","Omkar","8080544345","omkar@gmail.com",LocalDate.of(2001, 12,03),"pune",5000,5555,2000); 
-		cnt=5;
+	    cstarr[4] = new CurrentAccount("sbi",1000,"vita","IFSC1234","Pune","Omkar","8080544345","omkar@gmail.com",LocalDate.of(2001, 12,03),"pune",5000,5555,2000); 
+		
+	    cnt=5;
 	}
 	
 	public static void displayAll()
@@ -57,20 +57,39 @@ public class BankServices {
         int cc = 50000;
         System.out.println("Enter PIN");
         int pin =sc.nextInt();
+        System.out.println("Do your First Deposit to open Account");
+        System.out.println("Enter amount");
+        double fd = sc.nextDouble();
+        
        switch(ch) 		
         {
         case 1 :
-        
-        	cstarr[cnt] = new SavingAccount(Bname,minBalence,branch,ifsc,Addr,name,mob,em,ldt,adr,curbal,pin,interest);
-        	cnt++;
-        	System.out.println("Saving Account Created");
+        	if(fd>cstarr[1].getMinbalence())
+            {
+        		cstarr[cnt].setcurbal(fd);
+        		cstarr[cnt] = new SavingAccount(Bname,minBalence,branch,ifsc,Addr,name,mob,em,ldt,adr,curbal,pin,interest);
+            	cnt++;
+            	System.out.println("Saving Account Created");
+            	
+            }
+        	else 
+        	 {
+        		System.out.println("deposit should be greater than 1000");
+             }
         	break;
-        	
+
         case 2 :
-            
+        	if(fd>cstarr[1].getMinbalence())
+            {
+        		cstarr[cnt].setcurbal(fd);
         	cstarr[cnt] = new CurrentAccount(Bname,minBalence,branch,ifsc,Addr,name,mob,em,ldt,adr,curbal,pin,cc);
         	cnt++;
         	System.out.println("Current Account Created");
+            }
+        	else
+        	{
+        	    System.out.println("deposit should be greater than 1000");
+        	}
         	break;
         }
 	}
@@ -161,20 +180,21 @@ public class BankServices {
 				int n =  sc.nextInt();
 				
 				if(cstarr[i].getPin()==n)
-				{
-				double bal = cstarr[i].getcurbal();
-				if(b<(bal-cstarr[i].getMinbalence()))
-				{
-					cstarr[i].setcurbal(bal - b);
-					System.out.println("Balence withdrow..");
-				}
-				else 
-				{
-					double c1 = cstarr[i].getcurbal() - cstarr[i].getMinbalence();
-					System.out.println("You can withdraw up to " + c1);
-				}
-				break;
-				}
+					{
+					double bal = cstarr[i].getcurbal();
+					
+						if((cstarr[i].getcurbal())-(cstarr[i].getMinbalence())>=b)
+						{
+							cstarr[i].setcurbal(bal - b);
+							System.out.println("Balence withdrow..");
+						}
+						else 
+						{
+							double c1 = cstarr[i].getcurbal() - cstarr[i].getMinbalence();
+							System.out.println("You can withdraw up to " + c1);
+						}
+						break;
+						}
 				else
 				{
 					System.out.println("Wrong pin");

@@ -6,7 +6,7 @@ public class BankClass
 		private  String branch;
 		private  String IFSC;
 		private  String  address;
-		private static  double minbalence=0;
+		private  double minbalence=0;
 
 		public BankClass() 
 		{
@@ -55,9 +55,7 @@ public class BankClass
 		public double getMinbalence() {
 			return minbalence;
 		}
-		public void setMinbalence(double minbalence) {
-			this.minbalence = minbalence;
-		}
+		
 		@Override
 		public String toString() {
 			return "BankClass [Name ="+ Bname + "MinBalence =" + minbalence+ "branch=" + branch + ", IFSC=" + IFSC + ", address=" + address + "]";
