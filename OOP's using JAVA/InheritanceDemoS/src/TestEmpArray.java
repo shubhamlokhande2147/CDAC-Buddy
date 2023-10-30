@@ -23,6 +23,20 @@ public class TestEmpArray {
 				  break;
 				  
 			case 2 : 
+			    	System.out.println("Enter id");
+		    		int id=sc.nextInt();
+		    		System.out.println("Enter Salary");
+		    		double sal=sc.nextDouble();
+		    		boolean status=EmployeeService.ModifySalByID(sal,id);
+		    		if(status)
+		    		{
+		    			System.out.println("Modification done");
+		    		}
+		    		else
+		    		{
+		    			System.out.println("id not found");
+		    		}
+    		
 				  break;
 				  
 			case 3 : 
@@ -30,13 +44,46 @@ public class TestEmpArray {
 				  break;
 				  
 			case 4 : 
+	        		System.out.println("Enter Id that you want to display ");
+	        		int id4=sc.nextInt();
+	        		Employee e=EmployeeService.searchByIDN(id4);
+	        		if(e!=null)
+	        		{
+	        			System.out.println(e);
+	        		}
+	        		else
+	        		{
+	        			System.out.println("ID not found");
+	        		}
 				  break;
 				  
 			case 5 : 
-				  break;
+					System.out.println("Enter id that you want to find salary");
+		        	int pid=sc.nextInt();
+		        	double salary=EmployeeService.calculateSalaryById(pid);
+		        	if(salary!=-1)
+		        	{
+		        		System.out.println("Salary of Employee : "+(salary));
+		        	}
+		        	else
+		        	{
+		        		System.out.println("Employee Not Found");
+		        	}
+					  break;
 				  
-			case 6 : 
-				  break;
+			case 6 :
+					System.out.println("Enter Id you want to find bonus");
+		        	int id3=sc.nextInt();
+		        	double bonus=EmployeeService.calculateBonusByID(id3);
+		        	if(bonus!=-1)
+		        	{
+		        		System.out.println("Total Bonus Calculated: "+bonus);
+		        	}
+		        	else
+		        	{
+		        		System.out.println("Id not found");
+		        	}
+					  break;
 				  
 			case 7 : 
 				  sc.close();

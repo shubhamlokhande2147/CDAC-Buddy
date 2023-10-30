@@ -76,6 +76,74 @@ public class EmployeeService {
 			System.out.println(emparr[i]);
 		}
 	}
+	
+	private static int searchByID(int pid)
+	{
+		for(int i=0;i<cnt;i++)
+		{
+			if(emparr[i].getPid()==pid)
+			{
+				return i;
+			}
+		}
+		return -1;
+	}
+
+	public static boolean ModifySalByID(double sal, int id)
+	{int pos=searchByID(id);
+	if(pos!=-1)
+	{
+		if(emparr[pos] instanceof SalariedEmployee)
+		{
+			((SalariedEmployee)emparr[pos]).setSal(sal);
+		}
+		else if(emparr[pos] instanceof ContractEmployee)
+		{
+			((ContractEmployee)emparr[pos]).setCharges(sal);
+		}
+		else
+		{
+			((Vendor)emparr[pos]).setAmount(sal);
+		}
+		return true;
+	}
+	   return false;	
+	}
+
+	public static Employee searchByIDN(int id4) 
+	{
+		for(int i=0;i<cnt;i++)
+		{
+			if(emparr[i].getPid()==id4)
+			{
+				return emparr[i];
+			}
+		}
+
+		return null;
+	}
+
+	public static double calculateSalaryById(int pid)
+	{
+		int pos=searchByID(pid);
+		if(pos!=-1)
+		{
+			return emparr[pos].calculatesal();
+		}
+		 
+		return 0;
+	}
+
+	public static double calculateBonusByID(int id3) {
+		int pos=searchByID(id3);
+		if(pos!=-1 && emparr[pos] instanceof SalariedEmployee)
+		{
+		        return ((SalariedEmployee)emparr[pos]).calculateBonus();
+			//eturn emparr[pos].calculateBonus();
+		}		
+		return -1;
+	}
+
 
 
 }
