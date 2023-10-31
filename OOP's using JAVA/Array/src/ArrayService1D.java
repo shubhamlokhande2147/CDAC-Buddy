@@ -65,5 +65,4 @@ public class ArrayService1D {
 		}
 		return temp;
 	}
-
 }
