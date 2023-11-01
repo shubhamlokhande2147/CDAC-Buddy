@@ -56,4 +56,6 @@
      - Introduction of oops features and java
      - command line argment
      - string functions
-     - oops : abstraction,encapsulation
+     - oops : abstraction,encapsulation,polimorphoism,inheritance
+     - interface,generics
+     - collection : vector,arraylist
