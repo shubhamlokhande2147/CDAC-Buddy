@@ -1,4 +1,3 @@
-
 /*  use sirji_table  */
 
 Drop function if exists sumSalaty ;
