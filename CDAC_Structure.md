@@ -58,4 +58,7 @@
      - string functions
      - oops : abstraction,encapsulation,polimorphoism,inheritance
      - interface,generics
-     - collection : vector,arraylist
+     - collection : 1. List -> vector,arraylist
+                    2. Set  -> hashset,linkedhashset,treeset
+                    3. Queue -> priorityqueue
+
