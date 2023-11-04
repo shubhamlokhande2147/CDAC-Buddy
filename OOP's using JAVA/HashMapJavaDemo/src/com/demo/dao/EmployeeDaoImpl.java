@@ -1,6 +1,5 @@
 package com.demo.dao;
 
-
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
@@ -62,7 +61,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
 	public Employee findById(int id1)
 	{
 		//int pos=elist.indexOf(new SalariedEmployee(id1));
-		for(Employee e : hs)
+		for(Employee e : hm.get(e))
 		{
 			if(e.getPid()==id1)
 			{
