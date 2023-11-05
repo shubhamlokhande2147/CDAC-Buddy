@@ -2,7 +2,7 @@
              C++, SDM, DBT, OOPs with JAVA
 
 1) C++ : (15 Days)
-    - S/W : Dev+
+    - S/W : Dev++
     - Features of oops
     - Operators,Loops,Conditional/jump in statements
     - Functions, Pass by value/address/reference
