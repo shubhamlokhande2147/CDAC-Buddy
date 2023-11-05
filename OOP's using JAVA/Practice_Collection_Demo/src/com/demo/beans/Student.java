@@ -1,10 +1,9 @@
 package com.demo.beans;
 
-import java.util.Objects;
-
-public class Student {
+public class Student implements Comparable<Student>
+  {
 	
-	  private int id;
+	  private Integer id;
 	  private String name;
 	  
 	public Student()
@@ -41,20 +40,24 @@ public class Student {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(id, name);
+		return id;
 	}
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Student other = (Student) obj;
-		return id == other.id && Objects.equals(name, other.name);
+		
+		return this.id== ((Student)obj).id;
+
 	}
+
+	@Override
+	public int compareTo(Student p)
+	{
+		System.out.println("In Person compareTo method"+this.id+"--->"+p.id);
+	    return this.id.compareTo(p.id);
+	}
+	
+	
 
 	
 	

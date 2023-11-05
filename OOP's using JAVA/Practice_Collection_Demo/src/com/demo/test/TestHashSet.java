@@ -4,6 +4,8 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;
 
+import com.demo.beans.Student;
+
 public class TestHashSet {
 
 	@SuppressWarnings("unchecked")
@@ -71,6 +73,31 @@ public class TestHashSet {
 		
 		
 		
+		//for equals and hashcode method - 
+		
+        Student s1 = new Student(1,"shubham");	
+        Student s2 = new Student(1,"shubham");
+        Student s3 = new Student(2,"om");	
+
+
+        System.out.println("s1 hashset : " + s1 + "s1 hashcode : " + s1.hashCode());
+        System.out.println("s2 hashset : " + s2 + "s2 hashcode : " + s2.hashCode());
+        System.out.println("s3 hashset : " + s3 + "s3 hashcode : " + s3.hashCode());
+
+        
+		System.out.println("checking equality : " + s1.equals(s2));
+		System.out.println("checking equality : " + s2.equals(s3));
+		
+		
+		if(s1.equals(s2))
+		{
+			System.out.println("both are same");
+		}
+		else 
+		{
+			System.out.println("both are not same");
+		}
+
 	}
 	
 }
