@@ -16,7 +16,7 @@
     - NAmespace, Template,Enumration, RTTI, STL
 
   2) SDM :  (21 Days)
-      - S/W :Github : Create Account
+      - S/W : Github : Create Account
       - Software Devlopment Lifecycle(SDLC) : Requirement,software Requirement Specificatin (SRS) Document,Desig, Implementation, Testing, Deployment,Maintainance
       - SDLC Models
       - S/W : JIRA : Create Account
