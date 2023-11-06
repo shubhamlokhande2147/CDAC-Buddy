@@ -1,15 +1,15 @@
 package com.demo.test;
 
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class TestHashMap {
-	
+public class TestLinkedHashMap {
 	public static void main(String[] args) {
 		
-		//Map<String,Integer> hm = new HashMap<>();
-		HashMap<Integer,String> hm = new HashMap<>();
+
+		//Map<String,Integer> hm = new LinkedHashMap<>();
+		LinkedHashMap<Integer,String> hm = new LinkedHashMap<>();
 		
 		
 		hm.put(1, "shubham");
@@ -23,6 +23,10 @@ public class TestHashMap {
 
 		
 		System.out.println(hm.get(7));
+		
+		//all keys and values
+		System.out.println("all keys : " + hm.keySet());
+	    System.out.println("all values : " + hm.values());
 	
 		//display all key-pair
 		Set<Integer> s = hm.keySet();
@@ -55,7 +59,7 @@ public class TestHashMap {
 		//containkey
 		System.out.println("key 7 is present : " + hm.containsKey(7));
 		System.out.println("key 10 is present : " + hm.containsKey(10));
-		System.out.println("--------------------------------");
+        System.out.println("--------------------------------");
 
 		System.out.println("LinkedHashMap isempty : " + hm.isEmpty());
 		System.out.println("--------------------------------");
@@ -66,8 +70,6 @@ public class TestHashMap {
 		System.out.println("using entryset() method : " + hm.entrySet());
 		System.out.println("--------------------------------");
 
-		
-	
 	}
 
 }

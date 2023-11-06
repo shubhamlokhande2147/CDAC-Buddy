@@ -1,18 +1,20 @@
 package com.demo.test;
 
-import java.util.HashMap;
+import java.util.TreeMap;
 import java.util.Map;
 import java.util.Set;
 
-public class TestHashMap {
-	
+public class TestTreeMap {
+
 	public static void main(String[] args) {
 		
-		//Map<String,Integer> hm = new HashMap<>();
-		HashMap<Integer,String> hm = new HashMap<>();
+
+		//Map<String,Integer> hm = new TreeMap<>();
+		TreeMap<Integer,String> hm = new TreeMap<>();
 		
 		
 		hm.put(1, "shubham");
+		//hm.put(null, null); //NullPointerException
 		hm.put(2, "om");
 		hm.put(4, "shiv");
 		hm.put(6, "vaibhav");
@@ -23,7 +25,11 @@ public class TestHashMap {
 
 		
 		System.out.println(hm.get(7));
-	
+		
+		//all keys and values
+		System.out.println("all keys : " + hm.keySet());
+	    System.out.println("all values : " + hm.values());
+
 		//display all key-pair
 		Set<Integer> s = hm.keySet();
 		for(Integer s1:s)
@@ -55,7 +61,7 @@ public class TestHashMap {
 		//containkey
 		System.out.println("key 7 is present : " + hm.containsKey(7));
 		System.out.println("key 10 is present : " + hm.containsKey(10));
-		System.out.println("--------------------------------");
+	    System.out.println("--------------------------------");
 
 		System.out.println("LinkedHashMap isempty : " + hm.isEmpty());
 		System.out.println("--------------------------------");
@@ -64,10 +70,5 @@ public class TestHashMap {
 		System.out.println("--------------------------------");
 
 		System.out.println("using entryset() method : " + hm.entrySet());
-		System.out.println("--------------------------------");
-
-		
-	
 	}
-
 }
