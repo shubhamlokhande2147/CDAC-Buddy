@@ -57,6 +57,11 @@ public class TestTreeMap {
 		}
 		System.out.println("--------------------------------");
 		
+		//remove first key 
+		System.out.println("remove first key : " + hm.remove(1));
+		System.out.println("using entryset() method : " + hm.entrySet());
+		System.out.println("--------------------------------");
+
 		
 		//containkey
 		System.out.println("key 7 is present : " + hm.containsKey(7));
@@ -70,5 +75,15 @@ public class TestTreeMap {
 		System.out.println("--------------------------------");
 
 		System.out.println("using entryset() method : " + hm.entrySet());
+		System.out.println("--------------------------------");
+
+		System.out.println("headmap : " + hm.headMap(3));
+		System.out.println("--------------------------------");
+		
+		System.out.println("tailmap : " + hm.tailMap(4));
+
+		
+
+	
 	}
 }
