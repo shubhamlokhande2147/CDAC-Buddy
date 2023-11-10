@@ -11,21 +11,18 @@ import com.demo.services.EmpServicesImpl;
 public class TestServices {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		EmpServices emp = new EmpServicesImpl();
-		
 		Scanner sc = new Scanner(System.in);
 		int choice = 0;
-		
 		do {
-			System.out.println("1.Display All employees\n" + "2.Search by id\n" + "3.Search by name\r\n"
-					+ "4.Display all employee by type \r\n"
-					+ "5.calculate salary and display for all emplyees with particular designation\r\n"
-					+ "6.accept department from user and display 5 employees of that department. \r\n" 
-					+ "7.Delete By Id\n" + "8.Modify By Sal\n" + "9.Sort by Sal" + "\n10.sort by name\n11.Exit");
-			
+			System.out.println(" 1. Display All employees\n" + "2. Search by id\n" + "3. Search by name\r\n"
+					+ "4. Display all employee by type \r\n"
+					+ "5. calculate salary and display for all emplyees with particular designation\r\n"
+					+ "6. accept department from user and display 5 employees of that department. \r\n" + "7. Exit\n"
+					+ "8.Delete By Id\n" + "9.Modify By Sal\n" + "10.Sort by Sal" + "11.sort by name");
 			System.out.println("Enter Choice");
 			choice = sc.nextInt();
-			
 			switch (choice) {
 			case 1:
 				List<Employee> eList = emp.DisplayAll();
@@ -35,7 +32,6 @@ public class TestServices {
 					}
 				}
 				break;
-				
 			case 2:
 				System.out.println("Enter id");
 				int id2 = sc.nextInt();
@@ -57,14 +53,12 @@ public class TestServices {
 					System.out.println("Not Found");
 				}
 				break;
-				
 			case 4:
 				System.out.println("Enter Choice[1.Salaried Emp 2.Contract Emp 3. Vendor]");
 				int ch = sc.nextInt();
 				if (!(ch >= 1 && ch <= 3)) {
 					System.out.println("you entered wrong choice");
 					break;
-					
 				}
 				List<Employee> l2 = emp.getbytype(ch);
 				if (l2 != null) {
@@ -75,7 +69,6 @@ public class TestServices {
 					System.out.println("Not found");
 				}
 				break;
-				
 			case 5:
 				System.out.println("Enter Designation");
 				String s2 = sc.next();
@@ -100,8 +93,11 @@ public class TestServices {
 				}
 				break;
 
-			
 			case 7:
+				System.out.println("Thank you for visitng..!");
+				System.exit(0);
+				break;
+			case 8:
 				System.out.println("Enter id");
 				int id4 = sc.nextInt();
 				boolean status = emp.deletebyid(id4);
@@ -111,8 +107,7 @@ public class TestServices {
 					System.out.println("Not found Emp");
 				}
 				break;
-			
-			case 8:
+			case 9:
 				System.out.println("Enter id for salary ");
 				int id5 = sc.nextInt();
 				System.out.println("Enter salary");
@@ -123,23 +118,14 @@ public class TestServices {
 				} else {
 					System.out.println("Id not found");
 				}
-				break;
-				
-			case 9:
+			case 10:
 				System.out.println("Sort By Salary");
 				Set<Employee> hs = emp.SortBySal();
 				hs.stream().forEach(System.out::println);
-				break;
-				
-			case 10:
+			case 11:
 				System.out.println("sort by name");
 				List<Employee> li = emp.sortByName();
 				li.stream().forEach(System.out::println);
-				break;
-				
-			case 11:
-				System.out.println("Thank you for visitng..!");
-				System.exit(0);
 				break;
 
 			default:
