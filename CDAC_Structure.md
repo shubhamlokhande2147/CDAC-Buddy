@@ -52,7 +52,7 @@
      - Normalization
      - NOsql : Introduction to MongoDB
   
-  5) OOPs with JAVA :  (  Days)
+  5) OOPs with JAVA :  (13 Days)
      - Introduction of oops features and java
      - command line argment
      - string functions
