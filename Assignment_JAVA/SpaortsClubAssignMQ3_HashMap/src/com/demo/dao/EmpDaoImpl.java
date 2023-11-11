@@ -148,23 +148,24 @@ public class EmpDaoImpl implements EmpDao {
 
 	@Override
 	public List<Employee> sortByName() {
-		// TODO Auto-generated method stub
-		Comparator<Employee> name = (o1, o2) -> {
-			String n1, n2;
-			if (o1 instanceof Person) {
-				n1 = o1.getName();
-			}
-			if (o2 instanceof Person) {
-				n2 = o2.getName();
-			}
-			return n1.compareTo(n2);
-		};
-		List<Employee> rr = new ArrayList<>();
-		for (Employee e : hm.values()) {
-			rr.add(e);
-		}
-		rr.sort(null);
-		return rr;
+//		// TODO Auto-generated method stub
+//		Comparator<Employee> name = (o1, o2) -> {
+//			String n1, n2;
+//			if (o1 instanceof Person) {
+//				n1 = o1.getName();
+//			}
+//			if (o2 instanceof Person) {
+//				n2 = o2.getName();
+//			}
+//			return n1.compareTo(n2);
+//		};
+//		List<Employee> rr = new ArrayList<>();
+//		for (Employee e : hm.values()) {
+//			rr.add(e);
+//		}
+//		rr.sort(null);
+//		return rr;
+		return null;
 	}
 
 	// @Override
