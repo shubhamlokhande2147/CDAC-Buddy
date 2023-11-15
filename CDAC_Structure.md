@@ -36,6 +36,7 @@
       - Types of OS : Batch, Distributed, Multitasking, Network, Real Time, Mobile
       - Shell Scripting
    
+   
   4) DBT :   (21 Days)
      - S/W : MYSQL,MONGODB
      - DBMS
