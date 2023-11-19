@@ -1,5 +1,5 @@
 # Modules -> 
-             C++, SDM, DBT, OOPs with JAVA
+             C++, SDM, DBT, OOPs with JAVA, Data Structure with JAVA 
 
 1) C++ : (15 Days)
     - S/W : Dev++
@@ -69,5 +69,5 @@
      
   6) Data Structure with JAVA : (  Days)
      -
-                     
+
 
