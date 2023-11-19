@@ -37,6 +37,7 @@
       - Shell Scripting
    
    
+   
   4) DBT :   (21 Days)
      - S/W : MYSQL,MONGODB
      - DBMS
