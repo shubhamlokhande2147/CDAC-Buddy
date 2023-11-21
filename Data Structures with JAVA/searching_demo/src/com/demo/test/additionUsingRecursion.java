@@ -66,19 +66,14 @@ public class additionUsingRecursion {
         return ans;
     }
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-//		System.out.println("Enter number");
-//		int num = sc.nextInt();
-//		//int sum = add(num);
-//		//System.out.println("Sum is "+ sum);
-//		int fact = factorial(num);
-//		System.out.println("Factorial is "+ fact);
-		int nums[] = {5,7,7,8,8,10};
-		int target = 8;
-		int ans[] = searchRange(nums,target);
-		System.out.println(ans[0]);
-		System.out.println(ans[1]);
+		System.out.println("Enter number");
+		int num = sc.nextInt();
+		int sum = add(num);
+		System.out.println("Sum is "+ sum);
+		int fact = factorial(num);
+		System.out.println("Factorial is "+ fact);
+		
 	}
 
 }
