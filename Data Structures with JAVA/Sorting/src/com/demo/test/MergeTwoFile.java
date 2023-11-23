@@ -33,6 +33,24 @@ public class MergeTwoFile {
 			k++;
 		}
 		System.out.println(Arrays.toString(arr3));
+
+		// read file 3
+		int c = 0;
+		try {
+			File myObj = new File("file3.txt");
+			Scanner myReader = new Scanner(myObj);
+			while (myReader.hasNextLine()) {
+				int data = myReader.nextInt();
+				arr3[c] = data;
+				c++;
+				System.out.println(data);
+			}
+			System.out.println("\nFile 3 Sorted Data : " + Arrays.toString(arr3));
+			myReader.close();
+		} catch (FileNotFoundException e) {
+			System.out.println("An error occurred.");
+			e.printStackTrace();
+		}
 	}
 
 	public static void main(String[] args) {
@@ -96,23 +114,6 @@ public class MergeTwoFile {
 			System.out.println("An error occurred.");
 			e.printStackTrace();
 		}
-
-		//read file 3
-			try {
-			File myobj = new File("file3.txt");
-			Scanner myreader = new Scanner(myobj);
-			  while(myreader.hasNextLine())
-			  {
-				  String data = myreader.next();
-				  System.out.println(data);
-			  }	// System.out.println("file 3 data  : " + Arrays.toString(arr3));
-
-			
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	 	
 
 	}
 }
