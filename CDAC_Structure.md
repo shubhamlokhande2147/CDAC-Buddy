@@ -1,7 +1,7 @@
 # Modules -> 
              C++, SDM, DBT, OOPs with JAVA, Data Structure with JAVA 
 
-1) C++ : (15 Days)
+1) C++ : (15 Days)36
     - S/W : Dev++
     - Features of oops
     - Operators,Loops,Conditional/jump in statements
@@ -37,7 +37,7 @@
       - Shell Scripting
    
 
-  4) DBT :   (21 Days)
+  4) DBT :   (21 Days)33
      - S/W : MYSQL,MONGODB
      - DBMS
      - RDMS
@@ -52,7 +52,7 @@
      - Normalization
      - NOsql : Introduction to MongoDB
   
-  5) OOPs with JAVA :  (13 Days)
+  5) OOPs with JAVA :  (13 Days)26
      - Introduction of oops features and java
      - command line argment
      - string functions
@@ -71,5 +71,6 @@
      - Array
      - Seaching  : Linear,Binary
      - Sorting   : Bubble,Selection,Insertion,Merge,Quick,Haep(tree)
+     - Stack(isEmpty,isFull,Push,Pop)
 
 
