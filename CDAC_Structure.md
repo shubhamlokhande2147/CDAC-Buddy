@@ -72,5 +72,7 @@
      - Seaching  : Linear,Binary
      - Sorting   : Bubble,Selection,Insertion,Merge,Quick,Haep(tree)
      - Stack(isEmpty,isFull,Push,Pop)
+     - Queue(isEmpty,isFull,Enqueue,Dequeue)
+     - SinglyLinkedList(AddFirst,AddLast,AddBetween)
 
 
