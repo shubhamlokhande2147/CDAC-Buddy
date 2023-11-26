@@ -27,12 +27,6 @@ public class testMyQueue {
 		// ob.PrintData();
 
 		
-		System.out.println("shubham");
-		System.out.println("shubham");
-		System.out.println("shubham");
-		System.out.println("shubham");
-
-
 
 	}
 
