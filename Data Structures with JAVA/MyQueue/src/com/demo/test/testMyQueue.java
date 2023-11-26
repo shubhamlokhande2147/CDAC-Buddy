@@ -26,6 +26,8 @@ public class testMyQueue {
 		System.out.println("capacity : " + ob.capacity());
 		// ob.PrintData();
 
+		
+		System.out.println("shubham");
 	}
 
 }
