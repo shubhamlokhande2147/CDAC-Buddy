@@ -13,7 +13,7 @@ public class EmpTest {
 		EmpServices emp = new EmpServicesImpl();
 		int choice = 0;
 		do {
-			System.out.println("Enter Choice 1.Add Employee 2.Delete by id  Employee 3.Search by id 4. Display all 5.Exit");
+			System.out.println("\n1.Add Employee\n2.Delete Employee by id\n3.Search by id \n4.Display all\n5.Exit");
 			System.out.println("Enter Choice");
 			choice = sc.nextInt();
 			switch (choice) {
@@ -41,9 +41,12 @@ public class EmpTest {
 				}
 				break;
 			case 4:
-
 				emp.DisplayAll();
 				break;
+				
+			case 5:
+				System.out.println("Thank you for visiting...");
+				System.exit(0);
 			default:
 				break;
 			}
