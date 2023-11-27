@@ -75,6 +75,8 @@
      - Queue(isEmpty,isFull,Enqueue,Dequeue)
      - SinglyLinkedList(AddFirst,AddLast,AddBetween,DeleteAtEnd,DeleteBetween)
      - DoublyLinkedList(AddFirst,AddLast,AddBetween,DeleteAtEnd)
-     - 
-     - 
+     - Singly_Circular_LinkedList 
+     - Doubly_circular_LinkedList
+     - Hashtable using SinglyLinkedList
+     
 
