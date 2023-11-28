@@ -6,6 +6,7 @@ public class Employee {
 	private String ename;
 	private double sal;
 	
+	
 	public Employee() {
 		super();
 	}
