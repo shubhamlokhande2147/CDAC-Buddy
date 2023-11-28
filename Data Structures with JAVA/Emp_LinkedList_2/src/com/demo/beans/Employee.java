@@ -4,13 +4,13 @@ public class Employee {
 	
 	private int empid;
 	private String ename;
-	private float sal;
+	private double sal;
 	
 	public Employee() {
 		super();
 	}
 
-	public Employee(int empid, String ename, float sal) {
+	public Employee(int empid, String ename, double sal) {
 		super();
 		this.empid = empid;
 		this.ename = ename;
@@ -33,7 +33,7 @@ public class Employee {
 		this.ename = ename;
 	}
 
-	public float getSal() {
+	public double getSal() {
 		return sal;
 	}
 
