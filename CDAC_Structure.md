@@ -78,7 +78,8 @@
      - Singly_Circular_LinkedList 
      - Doubly_circular_LinkedList
      - Hashtable using SinglyLinkedList
-     - Tree
+     - Tree...Inorder, Preorder, Postorder
+     - Graph...BFS,DFS
      
 
 
