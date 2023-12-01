@@ -80,6 +80,8 @@
      - Hashtable using SinglyLinkedList
      - Tree...Inorder, Preorder, Postorder
      - Graph...BFS,DFS
+     - Algorithm
+     
      
 
 
