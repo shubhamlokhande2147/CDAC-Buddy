@@ -81,7 +81,6 @@
      - Tree...Inorder, Preorder, Postorder
      - Graph...BFS,DFS
      - Algorithm(Prim's,Kruskal's,Dijkstra's)
-     
      - Dynamic Programing alorithm(Floyed_Warshall,Ford_Falkerson)
      
 
