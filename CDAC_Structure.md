@@ -67,7 +67,7 @@
      - Multithreading
      - Reflection
      
-  6) Data Structure with JAVA : (  Days)
+  6) Data Structure with JAVA : (11 Days)
      - Array
      - Seaching  : Linear,Binary
      - Sorting   : Bubble,Selection,Insertion,Merge,Quick,Haep(tree)
