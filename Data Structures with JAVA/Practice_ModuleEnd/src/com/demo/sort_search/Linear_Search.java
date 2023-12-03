@@ -1,4 +1,4 @@
-package com.demo.test;
+package com.demo.sort_search;
 
 import java.util.Scanner;
 
