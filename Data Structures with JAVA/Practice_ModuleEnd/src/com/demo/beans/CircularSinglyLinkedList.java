@@ -25,40 +25,146 @@ public class CircularSinglyLinkedList {
 	}
 	
 	
-	public void addByPos(int pos,int data)
+//	public void addByPos(int pos,int data)
+//	{
+//		Node newnode = new Node(data);
+//		
+//		
+//		if(head==null)
+//		{
+//			head= newnode;
+//			newnode.next = head;
+//		}
+//		else {
+//			if(pos==1)
+//			{
+//				Node temp = head;
+//				//head = newnode;
+//				while(temp.next != head)
+//				{
+//					temp = temp.next;
+//				}
+//				newnode.next = head;
+//				head = newnode;
+//				temp.next =head;
+//			}
+//		else {
+//		Node temp=head;
+//		
+//		for(int i = 1; temp.next != head && i != pos - 1; i++)
+//		{
+//			temp=temp.next;
+//		}
+//		  newnode.next = temp.next;
+//		  temp.next = newnode;
+//		}
+//		}	
+//	}
+
+
+	public void addfirst(int data)
 	{
-		Node newnode = new Node(data);
-		
-		
-		if(head==null)
+		Node newnode= new Node(data);
+
+		if(head == null)
 		{
-			head= newnode;
+			head = newnode;
+			newnode.next = head;
+			
+		}
+		Node temp=head;
+		while(temp.next !=head)
+		{
+			temp = temp.next;
+		}
+		newnode.next = head;
+		head = newnode;
+		temp.next = newnode;
+	}
+	
+	public void addLast(int data)
+	{
+		Node newnode= new Node(data);
+         
+		if(head == null)
+		{
+			addfirst(data);
+		}
+		else
+		{
+			Node temp = head;
+			while(temp.next != head)
+			{
+				temp = temp.next;
+			}
+			temp.next = newnode;
 			newnode.next = head;
 		}
-		else {
+		
+	}
+	
+	public void addAtPos(int pos,int data)
+	{
+		Node newnode= new Node(data);
+
+		if(head == null)
+		{
 			if(pos==1)
 			{
-				Node temp = head;
-				//head = newnode;
-				while(temp.next != head)
-				{
-					temp = temp.next;
-				}
 				newnode.next = head;
 				head = newnode;
-				temp.next =head;
+				
 			}
-		else {
-		Node temp=head;
-		
-		for(int i = 1; temp.next != head && i != pos - 1; i++)
+		}
+		Node temp = head;
+		for(int i=1; temp.next != head && i<pos-1; i++)
 		{
-			temp=temp.next;
+			temp = temp.next;
 		}
-		  newnode.next = temp.next;
-		  temp.next = newnode;
+		
+		newnode.next = temp.next;
+		temp.next = newnode;
+		
+
+	}
+	
+	public void deleteAtLast()
+	{
+	   Node temp=head;
+	   
+	   while(temp.next.next  != head)
+	   {
+		   temp = temp.next ;
+	   }
+	     temp.next = head;
+	}
+	
+	///////////////
+	
+	public void deleteAtFirst()
+	{
+		Node temp = head;
+	while(temp.next !=head)
+	{
+		temp = temp.next;
+	}
+		temp.next = head.next;
+		head= head.next;
+	}
+	/////////////
+	
+	public void deleteByPos(int pos)
+	{
+		if(pos == 1) {
+			deleteAtFirst();
 		}
-		}	
+		Node temp = head;
+		
+		for(int i=1; temp.next != head && i<pos-1; i++)
+		{
+			temp = temp.next;
+		}
+		temp.next = temp.next.next;
 	}
 	
 	
