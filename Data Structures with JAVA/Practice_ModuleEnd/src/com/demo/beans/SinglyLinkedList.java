@@ -1,5 +1,6 @@
 package com.demo.beans;
 
+import com.demo.beans.SinglyLinkedList.Node;
 
 public class SinglyLinkedList {
 
@@ -37,29 +38,10 @@ public class SinglyLinkedList {
       
       public void addAtFirst(int data)
       {
-//    	  Node newnode = new Node(data);
-//    	  if(head == null)
-//    	  {
-//    		  head = newnode;
-//    		  //newnode.next= head;
-//    	  }
-//    	  else
-//    	  {
-//    		  Node temp =head;
-//    		  while(temp !=null)
-//    		  {
-//    			  temp = temp.next;
-//    		  }
-//    		  newnode.next = head;
-//    		  head = newnode;
-//    	  }
   		Node newnode = new Node(data);
-  	 if (head == null) {
+  	
+  		newnode.next = head;
   				head = newnode;
-  			} else {
-  				newnode.next = head;
-  				head = newnode;
-  			}
   		} 
     	
       
@@ -79,16 +61,65 @@ public class SinglyLinkedList {
                }
                
                curr.next = newnode;
-          
           }
+      }
+      
+      public void atByPos(int pos,int data)
+      {
+ 
+    	  Node newnode = new Node(data);
+  		if (head == null && pos != 1) {
+  			System.out.println("list is empty");
+  		}
+  		if (pos == 1) {
+  			if (head == null) {
+  				head = newnode;
+  			} else {
+  				newnode.next = head;
+  				head = newnode;
+  			}
+  		} else {
+  			Node prev = head;
+  			for (int i = 1; i <pos - 1; i++) {
+  				prev = prev.next;
+  			}
+  				newnode.next = prev.next;
+  				prev.next = newnode;
+  	
+  		}
+    	  }
     	  
+      public void deleteByPos(int pos)
+      {
+    	  Node temp = head;
+    	  for(int i=1; i< pos-1; i++)
+    	  {
+    		  temp = temp.next;
+    	  }
+    	  temp.next = temp.next.next; 
+      }
+    	  
+
+      public void deletestart()
+      {
+    	  head = head.next;
+      }
+      
+      public void deleteAtEnd()
+      {
+    	  Node temp = head;
+    	  while(temp.next.next != null)
+    	  {
+    		  temp = temp.next;
+    	  }
+    	  temp.next = null;
       }
       
       
       public void print()
       {
     	  Node temp=head;
-    	  while(temp.next != null)
+    	  while(temp != null)
     	  {
     		  System.out.print(temp.data);
     		  temp = temp.next;
@@ -101,4 +132,5 @@ public class SinglyLinkedList {
       
     
 }
+
 
