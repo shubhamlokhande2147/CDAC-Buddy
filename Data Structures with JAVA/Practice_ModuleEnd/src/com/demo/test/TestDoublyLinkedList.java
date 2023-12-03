@@ -23,7 +23,33 @@ public class TestDoublyLinkedList {
 		ob.print();
 		ob.addAtFirst(9);
 		ob.print();
+		ob.addAtFirst(11);
+		ob.print();
+		ob.addAtFirst(91);
+		ob.print();
+		
+		ob.addAtPos(4, 40);
+		ob.print();
+		
+		ob.addAtPos(5, 60);
+		ob.print();
+		
+		ob.deleteAtLast();
+		ob.print();
 
+		ob.deleteAtLast();
+		ob.print();
+
+        ob.deleteAtFirst();
+		ob.print();
+
+		ob.deleteAtFirst();
+		ob.print();
+		
+		ob.deleteByPos(2);
+		ob.print();
+		ob.deleteByPos(2);
+		ob.print();
 
 	}
 	
