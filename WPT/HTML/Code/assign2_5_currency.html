@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+</head>
+<script>
+    function convertCurr()
+    {
+        const frCurrency = document.getElementById("frCurrency").value;
+        const tCurrency = document.getElementById("tCurrency").value;
+        const amt = parseFloat(document.getElementById("amt1").value);
+        const exchangeGenerator={
+            USD:{INR: 83.38},
+            EUR:{INR: 89.93},
+            Pound:{INR: 104.92}
+        };
+        if(!exchangeGenerator[frCurrency] || !exchangeGenerator[frCurrency][tCurrency])
+        {
+            alert("Invalid currency selection");
+            return;
+        }
+        const convertedAmt = amt * exchangeGenerator[frCurrency][tCurrency];
+        document.getElementById("result").innerText = `${amt} ${frCurrency} = ${convertedAmt.toFixed(2)} ${tCurrency}`
+    }
+</script>
+<body>
+    <fieldset>
+        <legend><h5 style="font-family: sans-serif;">Currency Converter</h5></legend>
+        <label >Enter Number: <input type="text" id="amt1"></label>
+        <label >
+             from 
+            <select name="" id="frCurrency" >
+                <option >Select Currency</option>
+                <option value="INR">INR (&#8377)</option>
+                <option value="USD">USD ($)</option>
+                <option value="YEN">Yen (&#165)</option>
+                <option value="Pound">Pound(&#163)</option>
+                <option value="EURO">Euro (&#8364)</option>
+            </select>
+        </label>
+        <label >
+            To: 
+            <select name="" id="tCurrency" >
+                <option >Select Currency</option>
+                <option value="INR">INR (&#8377)</option>
+                <option value="USD">USD ($)</option>
+                <option value="YEN">Yen (&#165)</option>
+                <option value="Pound">Pound(&#163)</option>
+                <option value="EURO">Euro (&#8364)</option>
+            </select>
+        </label><br>
+        <label > <button onclick="convertCurr()" id="result">Result: </button></label>
+    </fieldset>
+</body>
+</html>
