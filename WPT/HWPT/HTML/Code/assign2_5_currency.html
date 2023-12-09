@@ -12,9 +12,10 @@
         const tCurrency = document.getElementById("tCurrency").value;
         const amt = parseFloat(document.getElementById("amt1").value);
         const exchangeGenerator={
-            USD:{INR: 83.38},
-            EUR:{INR: 89.93},
-            Pound:{INR: 104.92}
+            USD:{INR: 83.38,EURO:0.9},
+            EURO:{INR: 89.93},
+            Pound:{INR: 104.92},
+            INR:{USD:0.35,EURO:0.12}
         };
         if(!exchangeGenerator[frCurrency] || !exchangeGenerator[frCurrency][tCurrency])
         {
