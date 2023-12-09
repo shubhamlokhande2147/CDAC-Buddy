@@ -85,5 +85,5 @@
      
   7) Web Technology ( days)
     - Html
-    - Js
+    - JS
       
