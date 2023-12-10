@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Html TextField</title>
+</head>
+
+        <script>
+            
+            function male()
+          {
+            let a = document.getElementById("t1").value;
+            a = a.toLowerCase().split(' ');
+
+            for (var i = 0; i < a.length; i++) {
+                a[i] = a[i].charAt(0).toUpperCase() + a[i].slice(1); 
+            }
+ 
+            let b = document.getElementById("t2").value;
+            b = b.toLowerCase().split(' ');
+
+            for (var i = 0; i < b.length; i++) {
+                b[i] = b[i].charAt(0).toUpperCase() + b[i].slice(1); 
+            }
+             let result = a +" " +  b;
+             document.getElementById("cap1").innerHTML = "Mr. " + result;
+          }
+          function female()
+          {
+            let a = document.getElementById("t1").value;
+            a = a.toLowerCase().split(' ');
+
+            for (var i = 0; i < a.length; i++) {
+                a[i] = a[i].charAt(0).toUpperCase() + a[i].slice(1); 
+            }
+ 
+            let b = document.getElementById("t2").value;
+            b = b.toLowerCase().split(' ');
+
+            for (var i = 0; i < b.length; i++) {
+                b[i] = b[i].charAt(0).toUpperCase() + b[i].slice(1); 
+            }
+             let result = a +" " +  b;
+             document.getElementById("cap1").innerHTML = "Madam. " + result;
+          }
+        </script>
+
+<body>
+
+     
+    <fieldset style="width: 70%; margin-left: auto; margin-right: auto; text-align: center;">
+   
+        <label> Enter Firstname : </label>
+        <input type="text" id="t1"/><br><br>
+
+        <label> Enter Lastname : </label>
+        <input type="text" id="t2"/><br><br>
+
+        <label><input type="radio" name="gender" onclick="male()"/> Male</label> 
+        <label><input type="radio" name="gender" onclick="female()"/> Female</label> 
+        <label><input type="radio" name="gender" onclick="other()"/> Other</label>   <br><br>
+        <label>Result : </label><p id = "cap1"></p>
+
+     </Fieldset>
+
+    
+</body>
+</html>

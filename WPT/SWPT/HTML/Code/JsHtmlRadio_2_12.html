@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS and HTML Radio</title>
+</head>
+
+      <script>
+         
+           function captital()
+           {      
+              let a = document.getElementById("t1").value;
+              let upper = a.toUpperCase()
+              document.getElementById("cap1").innerHTML = upper;
+           }
+ 
+          function smallcase()
+          {
+             let a = document.getElementById("t1").value;
+             let smaller = a.toLowerCase()
+             document.getElementById("cap1").innerHTML = smaller;
+          }
+
+          function Titlecase()
+          {
+            let a = document.getElementById("t1").value;
+            a = a.toLowerCase().split(' ');
+
+            for (var i = 0; i < a.length; i++) {
+                a[i] = a[i].charAt(0).toUpperCase() + a[i].slice(1); 
+            }
+             document.getElementById("cap1").innerHTML = a;
+          }
+      </script>
+
+<body>
+    
+     
+    <fieldset style="width: 70%; margin-left: auto; margin-right: auto; text-align: center;">
+   
+         <label> Enter String : </label>
+         <input type="text" id="t1"/><br><br>
+
+         <label><input type="radio" name="radio" onclick="captital()"/> Capital</label> 
+         <label><input type="radio" name="radio" onclick="smallcase()"/> Smallcase</label> 
+         <label><input type="radio" name="radio" onclick="Titlecase()"/> Titlecase</label>   <br><br>
+         <label>Result : </label><p id = "cap1"></p>
+
+      </Fieldset>
+
+</body>
+</html>

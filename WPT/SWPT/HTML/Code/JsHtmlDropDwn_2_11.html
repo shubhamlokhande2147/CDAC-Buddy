@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Month And Weekday</title>
+  
+      <script>
+          
+          function findmonth()
+        {     
+                  
+
+                        let op = parseInt(document.getElementById("op1").value)
+                        // console.log(op)
+                        let result;
+                        switch(op)
+                        {
+                                    case 1 : result = "Jan";
+                                    break;
+                                    case 2 : result = "Feb";
+                                    break;
+                                    case 3 : result = "March";
+                                    break;
+                                    case 4 : result = "April";
+                                    break;
+                                    case 5 : result = "May";
+                                    break;
+                                    case 6 : result = "June";
+                                    break;
+                                    case 7 : result = "July";
+                                    break;
+                                    case 8 : result = "Aug";
+                                    break;
+                                    case 9 : result = "Sept";
+                                    break;
+                                    case 10 : result = "Oct";
+                                    break;
+                                    case 11 : result = "November";
+                                    break;
+                                    case 12 : result = "December";
+                                    break;
+                        }
+
+                        let out_string = result;
+                        document.getElementById("p1").innerHTML = out_string;     
+         }
+     
+
+      </script>
+
+<script>
+          
+    function findday()
+  {     
+            
+
+                  let day = parseInt(document.getElementById("op2").value)
+                   console.log(day)
+                  let result1;
+                  switch(day)
+                  {
+                              case 0 : result1 = "Sunday";
+                              break;
+                              case 1 : result1 = "Monday";
+                              break;
+                              case 2 : result1 = "Tuesday";
+                              break;
+                              case 3 : result1 = "Wednsday";
+                              break;
+                              case 4 : result1 = "Thersday";
+                              break;
+                              case 5 : result1 = "Friday";
+                              break;
+                              case 6 : result1 = "Saturday";
+                              break;
+                  }
+
+                  let out_string = result1;
+                  document.getElementById("p2").innerHTML = out_string;     
+   }
+
+
+</script>
+
+</head>
+<body>
+    
+       <fieldset style="width: 70%; margin-left: auto; margin-right: auto; text-align: center;">
+       
+             <label>Select Month :  </label>
+             <select id="op1" onchange="findmonth()">
+                  <option>Select Month</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+             </select><br><br>
+             <label>Month Name : </label><b><p id="p1"></p></b>
+       </fieldset><br>
+
+
+         
+       <fieldset style="width: 70%; margin-left: auto; margin-right: auto; text-align: center;">
+       
+        <label>Select Day :  </label>
+        <select id="op2" onchange="findday()">
+             <option>Select Weekday</option>
+             <option>0</option>
+             <option>1</option>
+             <option>2</option>
+             <option>3</option>
+             <option>4</option>
+             <option>5</option>
+             <option>6</option>
+           
+        </select><br><br>
+        <label>Day Name : </label><b><p id="p2"></p></b>
+  </fieldset>
+
+</body>
+</html>
