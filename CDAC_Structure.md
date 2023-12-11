@@ -84,6 +84,7 @@
      - Dynamic Programing alorithm(Floyed_Warshall,Ford_Falkerson)
      
   7) Web Technology ( days)
-    - Html
+    - HTML
     - JS
+    - CSS
       
