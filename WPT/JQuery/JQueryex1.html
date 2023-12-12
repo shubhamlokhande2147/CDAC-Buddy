@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Example</title>
+
+    <script src="./jquery-3.6.0.js"></script>
+
+    <script>
+
+        $().ready(()=>{
+
+            console.log("document is ready for manipulation")
+
+            $("#i1").click(()=>{
+                console.log("OK button clicked")
+            })
+
+            $("#i2").click(()=>{
+                console.log("Not OK button clicked")
+            })
+
+        })
+
+    </script>
+
+</head>
+<body>
+      
+    <div>
+        This is a Jquery Example
+        <input type="button" value="ok" id="i1"  />
+        <input type="button" value="notok"  id="i2" />
+    
+       </div>
+
+</body>
+</html>
