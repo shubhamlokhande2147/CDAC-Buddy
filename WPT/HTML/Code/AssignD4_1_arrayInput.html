@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let arr=[]
+        function addElement()
+        {
+            let temp = document.getElementById("id1").value;
+            arr.push(temp);
+            console.log(arr);
+        }
+        function show()
+        {
+            let yy = `${arr}`
+            document.getElementById("sh").innerHTML = yy
+        }
+    </script>
+</head>
+<body>
+    Enter name: <input type="text" id="id1">
+    <input type="button" value="add" onclick="addElement()">
+    <input type="button" value="show" onclick="show()">
+    <p>Array elements: <span id="sh"></span></p>
+</body>
+</html>

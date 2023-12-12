@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpperCase</title>
+       
+     <!-- sample code-->
+     <script>
+        console.log("Shubham")
+        let n=30;
+        console.log("n :" ,n)
+     </script>
+
+   <!-- Touppercase code
+        <script>
+          function f1()
+          {  let s = "ssdsdsd"
+             console.log(s.toUpperCase())
+          }
+        </script>
+     -->
+     
+     <!-- Touppercase code-->
+           <script>
+               function f1()
+               {
+                 let inputdata = document.getElementById("i1")
+                  
+                 let s = inputdata.value
+                 let ucase = s.toUpperCase()
+                 document.getElementById("p1").innerHTML = ucase;                
+               
+               }
+
+               function f12()
+               {
+                 let inputdata = document.getElementById("i2")
+                  
+                 let s = inputdata.value               
+
+                 let ucase1 = s.toLowerCase()
+                 document.getElementById("p2").innerHTML = ucase1;                
+               }
+
+           </script>
+      
+     
+</head>
+<body>
+    <fieldset style="width: 80%; align-items: center; text-align: center; margin-left: auto; margin-right: auto;">
+        
+        <input type="text" id="i1"/>
+        <input type="button" value="ToUppercase" onclick="f1()"/>
+        <p id="p1"></p>
+        
+              
+        <input type="text" id="i2"/>
+        <input type="button" value="ToLowercase" onclick="f2()"/>
+        <p id="p2"></p>
+
+    </fieldset>
+   
+
+</body>
+</html>
