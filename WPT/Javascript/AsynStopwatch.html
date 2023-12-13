@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous Exple</title>
+    <link rel="stylesheet" href="./AsynStopwatch.js">
+
+    <script>
+
+
+let cnt = 0;
+let intervalId;
+
+function start()
+{
+   intervalId = setInterval(() =>{
+    //  cnt++;
+      document.getElementById("p1").innerHTML = `${cnt}`;
+      cnt++;
+
+   },1000)
+}
+
+function stop()
+{
+   clearInterval(intervalId);
+}
+
+function reset()
+{
+    cnt=0;
+    document.getElementById("p1").innerHTML = `${cnt}`
+    clearInterval(intervalId);
+
+}
+
+    </script>
+</head>
+<body>
+
+    <input type="button" value="Start" id="b1" onclick="start()"/><br><br>
+    <input type="button" value="Stop" id="b2" onclick="stop()"/><br><br>
+    <input type="button" value="Reset" id="b3" onclick="reset()"/><br><br>
+     Time : 
+    <p id="p1"></p>
+</body>
+</html>
