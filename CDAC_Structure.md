@@ -88,9 +88,12 @@
     - JS
     - CSS
     - JQuery
+    - Ajax
 
 
 
   8) Advance Java ( days)  
     - JDBC
+    - Web Application
+    - Servlet
       
