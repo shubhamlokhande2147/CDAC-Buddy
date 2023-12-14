@@ -1,7 +1,7 @@
 import express from "express"
 
 let app = express()
-app.get("/",(req,res)=>{
+app.get("/hi",(req,res)=>{
     console.log("request arrived")
     res.send("Hi from Server...")
 })

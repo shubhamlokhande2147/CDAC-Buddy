@@ -89,6 +89,8 @@
     - CSS
     - JQuery
     - Ajax
+    - JS Syntax Struture
+    - Express Server
 
 
 
@@ -96,4 +98,7 @@
     - JDBC
     - Web Application
     - Servlet
+    - Login Page
+    - Tomcat Server Connection
+    - Web Application - HTML pages, Servlet, JDBC, Tomcat Server
       
