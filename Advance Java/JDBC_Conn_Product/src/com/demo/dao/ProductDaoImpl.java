@@ -22,7 +22,7 @@ public class ProductDaoImpl implements ProductDao {
 			upbyid=conn.prepareStatement("update product set pname=?,qty=?,price=? where pid=?");
 			findsorted=conn.prepareStatement("select * from product order by price");
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+            System.out.println(e.getMessage());
 			e.printStackTrace();
 		}
 	}
