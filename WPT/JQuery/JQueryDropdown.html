@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery DropDown</title>
+
+  <script src="./jquery-3.6.0.js"></script>
+
+  <script>
+
+       $().ready(()=>{
+
+         for(let i=0; i<100; i++)
+         {
+            $("#s1").append(`<option> ${i} </option>`)
+         }
+
+
+
+
+         let arr= ["red","green","yellow"];
+        
+         arr.forEach((element)=>{
+            $("#s2").append(`<option> ${element} </option>`)
+
+         })
+
+         $("#t1").change(()=>{
+            let b = $("#t1").val();
+            arr.push(b);
+            $("#s2").html("")
+
+  
+            arr.forEach((element)=>{
+            $("#s2").append(`<option> ${element} </option>`)
+
+         })
+
+         })
+          
+  
+
+
+       })
+
+  </script>
+</head>
+<body>
+     DropDown Example1 : 
+    <select id="s1"></select><br><br>
+
+    <input type="text" id="t1" onchange="add()"/>
+    DropDown Example1 : 
+    <select id="s2"></select>
+
+</body>
+</html>
