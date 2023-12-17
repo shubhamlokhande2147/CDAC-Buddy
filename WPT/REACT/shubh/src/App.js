@@ -49,7 +49,6 @@ function App() {
 
   return (
     <>
-
       <Hello name={"harsh"} col={"red"}></Hello>
       <SayHi></SayHi>
       <ShowMonthName></ShowMonthName>
