@@ -10,10 +10,8 @@ int main(){
     cout << "Enter the breadth of the rectangle: ";
     cin >> breadth;
     
-
     area = length * breadth;
     
-
     cout << "Area of Rectangle: " << area;
     return 0;
 }
