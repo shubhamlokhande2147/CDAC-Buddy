@@ -91,8 +91,7 @@
     - Ajax
     - JS Syntax Struture
     - Express Server
-
-
+    - React
 
 
 
@@ -103,4 +102,5 @@
     - Login Page
     - Tomcat Server Connection
     - Web Application - HTML pages, Servlet, JDBC, Tomcat Server
+    - JSP
       
