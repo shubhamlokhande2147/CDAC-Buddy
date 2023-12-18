@@ -83,7 +83,7 @@
      - Algorithm(Prim's,Kruskal's,Dijkstra's)
      - Dynamic Programing alorithm(Floyed_Warshall,Ford_Falkerson)
      
-  7) Web Technology ( days)
+  7) Web Technology (11 days)
     - HTML
     - JS
     - CSS
