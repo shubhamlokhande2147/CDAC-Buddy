@@ -1,5 +1,5 @@
 # Modules -> 
-             C++, SDM, DBT, OOPs with JAVA, Data Structure with JAVA, WPT, Advance Java
+             C++, SDM, DBT, OOPs with JAVA, Data Structure with JAVA, WPT, Advance Java, .Net
 
 1) C++ : (15 Days)36
     - S/W : Dev++
@@ -95,7 +95,7 @@
 
 
 
-  8) Advance Java ( days)  
+  8) Advance Java (6+ days)  
     - JDBC
     - Web Application
     - Servlet
@@ -104,3 +104,5 @@
     - Web Application - HTML pages, Servlet, JDBC, Tomcat Server
     - JSP
       
+  9) .Net Core ( days)
+    - Introduction of C# language
