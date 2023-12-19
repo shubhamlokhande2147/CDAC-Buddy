@@ -94,7 +94,6 @@
     - React
 
 
-
   8) Advance Java (6+ days)  
     - JDBC
     - Web Application
