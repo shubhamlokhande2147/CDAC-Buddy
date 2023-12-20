@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\obj\Debug\net8.0\Employee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\obj\Debug\net8.0\Employee.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\obj\Debug\net8.0\Employee.AssemblyInfo.cs
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\obj\Debug\net8.0\Employee.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\bin\Debug\net8.0\Employee.exe
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\bin\Debug\net8.0\Employee.deps.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\bin\Debug\net8.0\Employee.runtimeconfig.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\bin\Debug\net8.0\Employee.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\bin\Debug\net8.0\Employee.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\obj\Debug\net8.0\Employee.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\obj\Debug\net8.0\refint\Employee.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\obj\Debug\net8.0\Employee.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\obj\Debug\net8.0\Employee.genruntimeconfig.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day2\BasicSolution\Employee\obj\Debug\net8.0\ref\Employee.dll
