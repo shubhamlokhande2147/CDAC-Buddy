@@ -104,6 +104,5 @@
     - JSP
       
   9) .Net Core ( days)
-  
     - Introduction of C# language
     - OOP, Interface
