@@ -41,6 +41,7 @@ WageEmployee nwg = se;
 Console.WriteLine(nwg);
 
 //SalEmployee nse = (SalEmployee) nwg;
-SalEmployee nse = nwg as SalEmployee;
-Console.WriteLine(nse);
+// OR -------
+// SalEmployee nse = nwg as SalEmployee;
+// Console.WriteLine(nse);
 

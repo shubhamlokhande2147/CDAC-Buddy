@@ -20,3 +20,10 @@ D:\CDAC\_Local_Repository\CDAC-Buddy-1\.NET\Day2\BasicSolution\Employee\obj\Debu
 D:\CDAC\_Local_Repository\CDAC-Buddy-1\.NET\Day2\BasicSolution\Employee\obj\Debug\net8.0\Employee.dll
 D:\CDAC\_Local_Repository\CDAC-Buddy-1\.NET\Day2\BasicSolution\Employee\obj\Debug\net8.0\refint\Employee.dll
 D:\CDAC\_Local_Repository\CDAC-Buddy-1\.NET\Day2\BasicSolution\Employee\obj\Debug\net8.0\Employee.pdb
+D:\CDAC\_Local_Repository\CDAC-Buddy-1\.NET\Day2\BasicSolution\Employee\bin\Debug\net8.0\Employee.exe
+D:\CDAC\_Local_Repository\CDAC-Buddy-1\.NET\Day2\BasicSolution\Employee\bin\Debug\net8.0\Employee.deps.json
+D:\CDAC\_Local_Repository\CDAC-Buddy-1\.NET\Day2\BasicSolution\Employee\bin\Debug\net8.0\Employee.runtimeconfig.json
+D:\CDAC\_Local_Repository\CDAC-Buddy-1\.NET\Day2\BasicSolution\Employee\bin\Debug\net8.0\Employee.dll
+D:\CDAC\_Local_Repository\CDAC-Buddy-1\.NET\Day2\BasicSolution\Employee\bin\Debug\net8.0\Employee.pdb
+D:\CDAC\_Local_Repository\CDAC-Buddy-1\.NET\Day2\BasicSolution\Employee\obj\Debug\net8.0\Employee.genruntimeconfig.cache
+D:\CDAC\_Local_Repository\CDAC-Buddy-1\.NET\Day2\BasicSolution\Employee\obj\Debug\net8.0\ref\Employee.dll
