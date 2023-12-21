@@ -1,0 +1,21 @@
+﻿@using Catlog;
+
+@{
+    ViewData["Title"] = "catalog page";
+}
+
+<div class="text-center">
+    @{
+        Product p1 = ViewData["flower"] as Product;
+    }
+    <h1 class="display-4">product catalog</h1>
+    <hr>
+    <img src=@p1.Imageurl alt="nahi mila" height="300" width="300">
+    <p>@p1.ID</p>
+    <p>@p1.Pro_name</p>
+    <p>@p1.Description</p>
+    <p>@p1.Price</p>
+    <p>@p1.Quantity</p>
+    @* <p>@p1.Imageurl</p> *@
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

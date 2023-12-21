@@ -1,0 +1,19 @@
+﻿@page
+@using HR;
+@model IndexModel
+@{
+    ViewData["Title"] = "SecondWebApp";
+    int count=56;
+    Person prn = new Person();
+    prn.ID = 1;
+    prn.FirstName = "Ram";
+    prn.LastName =  "Rahim";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2>@count</h2>
+    <p>@prn.ID @prn.FirstName @prn.LastName</p>
+    <img src="/Images/img.jpg" alt="Dont know" height="300" width="300">
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
