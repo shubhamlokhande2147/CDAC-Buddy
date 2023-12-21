@@ -106,3 +106,4 @@
   9) .Net Core ( days)
     - Introduction of C# language
     - OOP, Interface
+    - WebApp, MVC, Razer Pages
