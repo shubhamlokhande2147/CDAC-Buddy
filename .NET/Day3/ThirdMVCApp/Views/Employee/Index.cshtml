@@ -1,0 +1,21 @@
+@using HR;
+
+@{
+    ViewData["Title"] = "Employee List";
+}
+
+<div class="text-center">
+    @{
+        SalesEmployee e2 = ViewData["Employee"] as SalesEmployee;
+    }
+    <h1 class="display-4">Employee List</h1>
+    <hr>
+    <p>Id : @e2.ID</p>
+    <p>Name : @e2.Name</p>
+    <p>Designation : @e2.Designation</p>
+    <p>Department : @e2.Department</p>
+    <p>Working Hours : @e2.wrkinghours</p>
+    <p>Insentive : @e2.Insentive</p>
+    <p>Target : @e2.Target</p>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

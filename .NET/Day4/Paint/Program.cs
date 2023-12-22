@@ -1,0 +1,21 @@
+using AWT.Draw;
+namespace Paint;
+
+static class Program
+{
+    /// <summary>
+    ///  The main entry point for the application.
+    /// </summary>
+    [STAThread]
+    static void Main()
+    {
+        // To customize application configuration such as set high DPI settings or default font,
+        // see https://aka.ms/applicationconfiguration.
+        Line l = new Line();
+        l.Color = "red";
+        l.Width = 3;
+        l.Draw();
+        ApplicationConfiguration.Initialize();
+        Application.Run(new Form1());
+    }    
+}
