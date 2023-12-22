@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GDILib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00244530ec74d75f981947cc8fffdfeaa8dfd466")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a65946c1437740b1256e7f34d40f44bfb607eff")]
 [assembly: System.Reflection.AssemblyProductAttribute("GDILib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GDILib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
