@@ -31,5 +31,6 @@ public partial class Form1 : Form
        Pen pen = new Pen(Color.FromArgb(255, 255, 0, 0));
         Graphics g=this.CreateGraphics();
         g.DrawLine(pen,l.Startpoint.X, l.Startpoint.Y, l.Endpoint.X, l.Endpoint.Y);
+        
     }
 }
