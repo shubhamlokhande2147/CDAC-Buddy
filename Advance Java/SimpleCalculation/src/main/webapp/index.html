@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<form action="Add" method="get">
+		
+		 Enter Num1: <input type="text" name="num1"/>
+		 Enter Num2: <input type="text" name="num2"/>
+                     <input type="submit" name="Adition" value="Adition"></input>
+		        
+	</form><br><br>
+	
+	<form action="register" method="post">
+		
+		Enter name: <input type="text" id"name" /><br><br>
+		DOB : <input type="date" id="dob"/><br><br>
+		Email: <input type="text" pattern="[A-Za-z]+[0-9]{4}@gmail.com" id="gmail"/><br><br>
+		Mobile: <input type="number" pattern="[0-9]{10}" id="mob"/><br><br>
+		Address: <input type="text" id="address"/>	<br><br>
+		Gender: <input type="radio" name="gender"/>male  <input type="radio" name="gender"/>female <input type="radio" name="gender"/>other<br><br>
+		Education:<input type="checkbox" name="edu"/>10th <input type="checkbox" name="edu"/>12th <input type="checkbox" name="edu"/>Diploma <input type="checkbox" name="edu"/>Degree<br><br>
+		Select college:
+				    <select name="college" id="college">
+				 
+				    <option value="CDAC-Acts">CDAC-Acts</option>
+				 
+				    <option value="Sunbeam">Sunbeam</option>
+				 
+				    <option value="Know-IT">Know-IT</option>
+				 
+				 	<option value="IACSD">IACSD</option>
+				 
+				    <option value="IET">IET</option>
+				 
+				    <option value="Infoway">Infoway</option>
+				 
+				</select><br><br>
+						
+		Course:
+		
+		    <select name="course" id="course">
+		 
+		    <option value="PG_DAC">PG_DAC</option>
+		 
+		    <option value="PG_DBDA">PG_DBDA</option>
+		 
+		    <option value="PG-AI">PG-AI</option>
+		    
+		    <option value="PG-DITIS">PG-DITIS</option>
+		    
+            </select><br><br>
+            
+            <input type="submit" value="submit" name="Submit"/>
+	</form>
+
+</body>
+</html>
