@@ -27,32 +27,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\IET\\.nuget\\packages\\": {}
+    "C:\\Users\\shubh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IET\\Desktop\\230945920053_230945920112\\.Net\\HNET\\Day5\\EventDrivenSolution\\HDFCApp\\HDFCApp.csproj",
+      "projectUniqueName": "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day5\\EventDrivenSolution\\HDFCApp\\HDFCApp.csproj",
       "projectName": "HDFCApp",
-      "projectPath": "C:\\Users\\IET\\Desktop\\230945920053_230945920112\\.Net\\HNET\\Day5\\EventDrivenSolution\\HDFCApp\\HDFCApp.csproj",
-      "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IET\\Desktop\\230945920053_230945920112\\.Net\\HNET\\Day5\\EventDrivenSolution\\HDFCApp\\obj\\",
+      "projectPath": "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day5\\EventDrivenSolution\\HDFCApp\\HDFCApp.csproj",
+      "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
+      "outputPath": "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day5\\EventDrivenSolution\\HDFCApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\IET\\Desktop\\230945920053_230945920112\\.Net\\HNET\\Day5\\EventDrivenSolution\\banking\\banking.csproj": {
-              "projectPath": "C:\\Users\\IET\\Desktop\\230945920053_230945920112\\.Net\\HNET\\Day5\\EventDrivenSolution\\banking\\banking.csproj"
+            "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day5\\EventDrivenSolution\\banking\\banking.csproj": {
+              "projectPath": "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day5\\EventDrivenSolution\\banking\\banking.csproj"
             }
           }
         }
