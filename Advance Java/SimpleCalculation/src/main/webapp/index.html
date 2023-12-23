@@ -14,18 +14,23 @@
 		        
 	</form><br><br>
 	
-	<form action="register" method="post">
+	<caption style="text-align: center;">Registration Form</caption>
+	<fieldset style="text-align: center;">
 		
-		Enter name: <input type="text" id"name" /><br><br>
-		DOB : <input type="date" id="dob"/><br><br>
-		Email: <input type="text" pattern="[A-Za-z]+[0-9]{4}@gmail.com" id="gmail"/><br><br>
-		Mobile: <input type="number" pattern="[0-9]{10}" id="mob"/><br><br>
-		Address: <input type="text" id="address"/>	<br><br>
-		Gender: <input type="radio" name="gender"/>male  <input type="radio" name="gender"/>female <input type="radio" name="gender"/>other<br><br>
-		Education:<input type="checkbox" name="edu"/>10th <input type="checkbox" name="edu"/>12th <input type="checkbox" name="edu"/>Diploma <input type="checkbox" name="edu"/>Degree<br><br>
+		<form action="register" method="post">
+		
+		Enter name: <input type="text" name="nm" /><br><br>
+		DOB : <input type="date" name="dob"/><br><br>
+		Email: <input type="text" pattern="[A-Za-z]+[0-9]{4}@gmail.com" name="gmail"/><br><br>
+		Mobile: <input type="number" pattern="[0-9]{10}" name="mob"/><br><br>
+		Address: <input type="text" name="address"/>	<br><br>
+		Gender: <input type="radio" name="gender" value="Male"/>Male  <input type="radio" name="gender" value="Female"/>Female <input type="radio" name="gender" value="Other"/>Other<br><br>
+		Education:<input type="checkbox" name="edu" value="10th"/>10th <input type="checkbox" name="edu" value="12th"/>12th <input type="checkbox" name="edu" value="Diploma"/>Diploma <input type="checkbox" name="edu" value="Degree"/>Degree<br><br>
 		Select college:
-				    <select name="college" id="college">
+				    <select name="college" name="college">
 				 
+				    <option value="select-option">select-option</option>
+
 				    <option value="CDAC-Acts">CDAC-Acts</option>
 				 
 				    <option value="Sunbeam">Sunbeam</option>
@@ -42,7 +47,9 @@
 						
 		Course:
 		
-		    <select name="course" id="course">
+		    <select name="course" name="course">
+				
+			<option value="select-option">select-option</option>
 		 
 		    <option value="PG_DAC">PG_DAC</option>
 		 
@@ -57,5 +64,9 @@
             <input type="submit" value="submit" name="Submit"/>
 	</form>
 
+		
+	</fieldset>
+	
+	
 </body>
 </html>
