@@ -63,7 +63,9 @@ let result = add(4,5);
 console.log("Addition : " + result)
 
 //----------------------------------------------
-
+//REST Parameters = Variable args 
+//only one rest parameter for a func
+//rest parameters will be last arg
 function adddition(...nums)
 {
     let sum=0;
@@ -89,3 +91,12 @@ console.log("Addition : " + total(1,2,3,4,5,6))
 
 let result3 = adddition(4,5,3,34,5,5);
 console.log("Addition : " + result3)
+
+//default parameter
+function add(num1=10,num2=10)
+{
+    return num1 + num2;
+}
+
+let result4 = add();
+console.log("Default Addition : " + result4)
