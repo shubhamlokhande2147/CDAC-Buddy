@@ -61,50 +61,32 @@
  
         <script>
 
-          function cases()
-          {
-             let ip = document.getElementById("data").value;
-             let up = document.getElementById("r1").checked;
-             let lp = document.getElementById("r1").checked;
-             let tp = document.getElementById("r1").checked;
+        function cases()    
+        {
+            let data = document.getElementById("data").value
+            let uc = document.getElementById("r1").checked
+            let lc = document.getElementById("r2").checked
+            let tc = document.getElementById("r3").checked
 
-            if(up)  { output = ip.toUpperCase(); }
-            if(lp)  { output = ip.toLowerCase(); }
-            if(lp)  { 
-                      let first = ip.charAt(0).toUpperCase();
-                      let second = ip.subString(1).toLowerCase();
-                      output = first + second; 
-                    }
+            let outputstr=data
+            if(uc)
+            {
+                outputstr = data.toUpperCase();
+            }
+            if(lc)
+            {
+                outputstr = data.toLowerCase();
+            }
+            if(tc)
+            {
+                let first = data.charAt(0).toUpperCase()
+                let second = data.substring(1).toLowerCase()
+                outputstr = first+second
+            }
 
-            document.getElementById("op").innerHTML = output;
-
-          }
-    //    // function f1()
-    // {
-    //   let data = document.getElementById("data").value
-    //   let uc = document.getElementById("r1").checked
-    //   let lc = document.getElementById("r2").checked
-    //   let tc = document.getElementById("r3").checked
-
-    //   let outputstr=data
-    //   if(uc)
-    //   {
-    //     outputstr = data.toUpperCase();
-    //   }
-    //   if(lc)
-    //   {
-    //     outputstr = data.toLowerCase();
-    //   }
-    //   if(tc)
-    //   {
-    //     let first = data.charAt(0).toUpperCase()
-    //     let second = data.substring(1).toLowerCase()
-    //     outputstr = first+second
-    //   }
-
-    //   document.getElementById("op").innerHTML = outputstr
-    // }
-        </script>
+            document.getElementById("op").innerHTML = outputstr
+        }
+            </script>
     
 </head>
 <body>
