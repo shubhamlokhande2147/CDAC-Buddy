@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\obj\Debug\net8.0\Day6BasicOperation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\obj\Debug\net8.0\Day6BasicOperation.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\obj\Debug\net8.0\Day6BasicOperation.AssemblyInfo.cs
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\obj\Debug\net8.0\Day6BasicOperation.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\bin\Debug\net8.0\Day6BasicOperation.exe
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\bin\Debug\net8.0\Day6BasicOperation.deps.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\bin\Debug\net8.0\Day6BasicOperation.runtimeconfig.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\bin\Debug\net8.0\Day6BasicOperation.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\bin\Debug\net8.0\Day6BasicOperation.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\obj\Debug\net8.0\Day6BasicOperation.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\obj\Debug\net8.0\refint\Day6BasicOperation.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\obj\Debug\net8.0\Day6BasicOperation.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\obj\Debug\net8.0\Day6BasicOperation.genruntimeconfig.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\Day6BasicOperation\obj\Debug\net8.0\ref\Day6BasicOperation.dll

@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\obj\Debug\net8.0\SwapApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\obj\Debug\net8.0\SwapApp.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\obj\Debug\net8.0\SwapApp.AssemblyInfo.cs
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\obj\Debug\net8.0\SwapApp.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\bin\Debug\net8.0\SwapApp.exe
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\bin\Debug\net8.0\SwapApp.deps.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\bin\Debug\net8.0\SwapApp.runtimeconfig.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\bin\Debug\net8.0\SwapApp.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\bin\Debug\net8.0\SwapApp.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\obj\Debug\net8.0\SwapApp.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\obj\Debug\net8.0\refint\SwapApp.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\obj\Debug\net8.0\SwapApp.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\obj\Debug\net8.0\SwapApp.genruntimeconfig.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\SwapApp\obj\Debug\net8.0\ref\SwapApp.dll
