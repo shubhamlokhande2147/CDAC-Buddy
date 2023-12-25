@@ -1,16 +1,16 @@
-/*
+
 function Student(r,n,d){
     this.roll = r
     this.name = n
     this.dob = d
 
-    /*
+    
     this.test =function()
     {
         console.log("doing something")
-    }*/
-//}
-/*
+    }
+}
+
 Student.prototype.getDetails = function(){
     return this.name+" "+this.dob+" "+this.roll
 }
@@ -29,7 +29,7 @@ console.log(s1)
 console.log(s2)
 
 
-*/
+
 
 let obj = {name:'prachi',city:'pune' }
 let pro = {age:45,qualification:'ME'}
