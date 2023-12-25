@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\obj\Debug\net8.0\OrderProcessing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\obj\Debug\net8.0\OrderProcessing.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\obj\Debug\net8.0\OrderProcessing.AssemblyInfo.cs
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\obj\Debug\net8.0\OrderProcessing.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\bin\Debug\net8.0\OrderProcessing.exe
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\bin\Debug\net8.0\OrderProcessing.deps.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\bin\Debug\net8.0\OrderProcessing.runtimeconfig.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\bin\Debug\net8.0\OrderProcessing.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\bin\Debug\net8.0\OrderProcessing.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\obj\Debug\net8.0\OrderProcessing.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\obj\Debug\net8.0\refint\OrderProcessing.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\obj\Debug\net8.0\OrderProcessing.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\obj\Debug\net8.0\OrderProcessing.genruntimeconfig.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day6\OrderProcessing\obj\Debug\net8.0\ref\OrderProcessing.dll
