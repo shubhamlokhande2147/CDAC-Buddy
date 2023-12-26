@@ -3,7 +3,7 @@ Console.WriteLine("Welcome to Db app");
 
 //define connection string
 MySqlConnection connection = new MySqlConnection();
-connection.ConnectionString = "server=192.168.10.150;port=3306;user=dac52;password=welcome;database=dac52";
+connection.ConnectionString = "server=localhost;port=3306;user=root;password=Shubham@2147;database=dot_net";
 
 do
 {
@@ -54,7 +54,6 @@ do
             int Qty1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter Price");
             int Price1 = int.Parse(Console.ReadLine());
-
             string query1 = "INSERT INTO products1 VALUES (@value1, @value2, @value3,@value4,@value5)";
 
             command = new MySqlCommand(query1, connection);
