@@ -109,3 +109,5 @@
     - ConsoleApp, WebApp, MVC, Razer Pages
     - Windows Form
     - Delegete, Event
+    - ADO.NET
+    - Database Connectivity
