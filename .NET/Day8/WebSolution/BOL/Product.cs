@@ -14,40 +14,40 @@ public class Product
         this.name = name;
         this.description = description;
         this.qty = qty;
-        this.price - price;
+        this.price = price;
     }
     
-    //Properties of Product Entity
+//     //Properties of Product Entity
 
-    public int id
-    {
-        get { return id; }
-        set { id = value; }
-    }
+//     public int id
+//     {
+//         get { return id; }
+//         set { id = value; }
+//     }
 
-    public int name
-    {
-        get { return name; }
-        set { name = value; }
-    }
+//     public int name
+//     {
+//         get { return name; }
+//         set { name = value; }
+//     }
       
-    public int description
-    {
-        get { return description; }
-        set { description = value; }
-    }
+//     public int description
+//     {
+//         get { return description; }
+//         set { description = value; }
+//     }
    
-    public int qty
-    {
-        get { return qty; }
-        set { qty = value; }
-    }
+//     public int qty
+//     {
+//         get { return qty; }
+//         set { qty = value; }
+//     }
 
-   public int price
-    {
-        get { return price; }
-        set { price = value; }
-    }
+//    public int price
+//     {
+//         get { return price; }
+//         set { price = value; }
+//     }
     
     
 
