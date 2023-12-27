@@ -1,5 +1,6 @@
 ﻿@using System.Collections.Generic;;
 @using BOL;
+@using BLL;
 
 
 @{
@@ -13,7 +14,7 @@
         List<Product> allproducts = (List<Product>)ViewData["prod1"];
         foreach (Product p in allproducts)
         {
-            <p>  @p.id @p.name </p>
+            <p>  @p.Id @p.Name </p>
         }
       
      }

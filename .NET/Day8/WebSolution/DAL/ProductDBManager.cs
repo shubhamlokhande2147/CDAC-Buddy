@@ -1,11 +1,12 @@
 namespace DAL;
 using BOL;
-using BLL;
+using MySql.Data.MySqlClient;
+
 using System.Collections.Generic;
 
 public class ProductDBManager
 {
-        public static string conString=@"server=localhost;port=3306;user=root; password=Shubham@2147;database=dot_net";       
+        public static string conString="server=localhost;port=3306;user=root; password=Shubham@2147;database=dot_net";       
 
         public static List<Product> GetAllProducts()
         {
@@ -34,15 +35,17 @@ public class ProductDBManager
                     int price = int.Parse(reader["price"].ToString());
 
 
-                    Product prod = new Product{
-                                                    id = id,
-                                                    name = name,
-                                                    description = description,
-                                                    qty = qty,
-                                                    price = price
-                    };
+                    Product prod = new Product();
+                    prod.Id =id;
+                    prod.Name = name;
+                    prod.Description = description;
+                    prod.Qty = qty;
+                    prod.Price = price;
+                                        
+                
                     allProducts.Add(prod);
                 }
+                reader.Close();
             }
             catch(Exception ee){
                 Console.WriteLine(ee.Message);

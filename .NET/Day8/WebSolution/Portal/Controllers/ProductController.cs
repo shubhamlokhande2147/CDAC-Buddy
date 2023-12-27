@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Portal.Models;
 using System.Collections.Generic;
 using BOL;
-using DAL;
+//using DAL;
 using BLL;
 
 
@@ -21,7 +21,7 @@ public class ProductController : Controller
     public IActionResult Product()
     {
 
-        ProductDBManager mgr=new ProductDBManager();
+        ProductManager mgr=new ProductManager();
         List<Product> allProducts=mgr.GetAllProducts();
         //View Data is a Dictionary Object
         //data is maintained inside dictionary using key - Value pair

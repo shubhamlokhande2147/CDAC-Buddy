@@ -539,6 +539,10 @@
       "BLL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "BOL": "1.0.0",
+          "DAL": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BLL.dll": {}
         },
@@ -1841,11 +1845,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day8\\WebSolution\\Portal\\Portal.csproj",
+      "projectUniqueName": "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day8\\WebSolution\\portal\\Portal.csproj",
       "projectName": "Portal",
-      "projectPath": "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day8\\WebSolution\\Portal\\Portal.csproj",
+      "projectPath": "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day8\\WebSolution\\portal\\Portal.csproj",
       "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
-      "outputPath": "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day8\\WebSolution\\Portal\\obj\\",
+      "outputPath": "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day8\\WebSolution\\portal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
