@@ -14,7 +14,24 @@
         List<Product> allproducts = (List<Product>)ViewData["prod1"];
         foreach (Product p in allproducts)
         {
-            <p>  @p.Id @p.Name </p>
+            <table border="2px">
+                  <tr>
+                     <th>Id</th>
+                     <th>Name</th>
+                     <th>Desciption</th>
+                     <th>Quantity</th>
+                     <th>Price</th>
+                  </tr>
+                  <tr>
+                     <td>@p.Id</td>
+                     <td>@p.Name</td>
+                     <td>@p.Description</td>
+                     <td>@p.Qty</td>
+                     <td>@p.Price </td>
+                  </tr>
+            </table>
+            
+            <!-- <p> <b>Id :</b> @p.Id  <b>Name :</b> @p.Name <b>Desciption :</b>  @p.Description <b>Quantity :</b> @p.Qty  <b>Price :</b> @p.Price </p> -->
         }
       
      }
