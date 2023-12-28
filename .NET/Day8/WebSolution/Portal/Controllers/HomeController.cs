@@ -34,7 +34,7 @@ public class HomeController : Controller
     { 
         if(userName == "admin" && password == "admin")
         {
-            return this.RedirectToAction("Product/Product");
+            return this.Redirect("/Product/Product");
         }
           return View();
        

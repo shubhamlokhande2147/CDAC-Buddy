@@ -8,31 +8,37 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-4">Product List</h1>
 
     @{
         List<Product> allproducts = (List<Product>)ViewData["prod1"];
-        foreach (Product p in allproducts)
+       <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Description</th>
+      <th scope="col">Quantity</th>
+      <th scope="col">Price</th>
+
+    </tr>
+  </thead>
+        @foreach (Product p in allproducts)
         {
-            <table border="2px">
-                  <tr>
-                     <th>Id</th>
-                     <th>Name</th>
-                     <th>Desciption</th>
-                     <th>Quantity</th>
-                     <th>Price</th>
-                  </tr>
-                  <tr>
+            <tbody>
+                 <tr>
                      <td>@p.Id</td>
                      <td>@p.Name</td>
                      <td>@p.Description</td>
                      <td>@p.Qty</td>
                      <td>@p.Price </td>
                   </tr>
-            </table>
-            
+              </tbody>
+
+      
             <!-- <p> <b>Id :</b> @p.Id  <b>Name :</b> @p.Name <b>Desciption :</b>  @p.Description <b>Quantity :</b> @p.Qty  <b>Price :</b> @p.Price </p> -->
         }
+        </table>
       
      }
 
