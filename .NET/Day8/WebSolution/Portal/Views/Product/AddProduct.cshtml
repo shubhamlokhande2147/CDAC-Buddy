@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<form method="Post">
+
+  <div class="form-group">
+    <label for="exampleInputEmail1"><b>ID</b></label>
+    <input type="text" class="form-control" id="id" name="id" aria-describedby="emailHelp" placeholder="Enter ID">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div><br>
+  <div class="form-group">
+    <label for="exampleInputPassword1"><b>Name</b></label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="Product Name">
+  </div><br>
+   <div class="form-group">
+    <label for="exampleInputPassword1"><b>Description</b></label>
+    <input type="text" class="form-control"  id="desc" name="desc" placeholder="Product Description">
+  </div><br>
+   <div class="form-group">
+    <label for="exampleInputPassword1"><b>Quantity</b></label>
+    <input type="text" class="form-control" id="qty" name="qty" placeholder="Enter Quantity">
+  </div><br>
+   <div class="form-group">
+    <label for="exampleInputPassword1"><b>Price</b></label>
+    <input type="text" class="form-control" id="price" name="price" placeholder="Enter Price">
+  </div><br>
+  <button type="submit" class="btn btn-primary">Insert Data</button>
+
+
+</form>

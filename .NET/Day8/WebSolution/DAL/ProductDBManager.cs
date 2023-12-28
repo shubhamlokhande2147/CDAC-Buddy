@@ -55,5 +55,54 @@ public class ProductDBManager
             }
 
             return allProducts;  
-        }       
+        }    
+
+        public static void InsertData(Product p)
+        {
+            // int id=p.Id;
+            // string name=p.Name;    
+            // string desc=p.Description;
+            // int qty=p.Qty; 
+            // int price=p.Price;
+            //        Console.WriteLine(id + " " + name);
+
+            // string query="insert into table products1 values(id,name,desc,qty,price)";
+            // MySqlConnection con=new MySqlConnection();
+            // con.Open();
+            // con.ConnectionString=conString;
+            
+            // MySqlCommand command = new MySqlCommand(query, con);
+            // command.Connection=con;
+            // command.ExecuteNonQuery();
+            // con.Close();
+
+             //Employee Operations CRUD
+    //public static bool Insert(Department dept){
+        // bool status=false;
+        // string query = "INSERT INTO departments(name,location)" +
+        //                     "VALUES('" + dept.Name + "','" + dept.Location + "')";
+
+   string query = "INSERT INTO products1(id,name,description,qty,price)" +
+                             "VALUES('" + p.Id + "','" + p.Name + "','" + p.Description + "','" + p.Qty + "','" + p.Price + "')";
+         //string query="insert into table products1 values(id,name,desc,qty,price)";
+
+        MySqlConnection con = new MySqlConnection();
+        con.ConnectionString = conString;
+        try{
+            con.Open();
+            MySqlCommand command = new MySqlCommand(query, con);
+            command.ExecuteNonQuery();  //DML
+            // status = true;
+        } 
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        finally
+        {
+            con.Close();
+        }               
+     //   return status;
+              // this.Redirect("Product");
+        }   
 }     
