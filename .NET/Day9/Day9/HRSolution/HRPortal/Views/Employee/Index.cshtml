@@ -1,0 +1,14 @@
+
+@{
+    ViewData["Title"] = "Employee index";
+}
+
+@{
+    List<Employee> elist = (List<Employee>)ViewData["employees"];
+    <ol>
+        @foreach(Employee e in elist)
+        {
+            <li> @e.Id @e.FirstName @e.LastName <a href="Employee/Edit">Edit</a></li>
+        }
+    </ol>
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRPortal", "HRPortal\HRPortal.csproj", "{749B4B40-B0B0-454B-869B-2E216DEF17EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMicroServiceApp", "SimpleMicroServiceApp\SimpleMicroServiceApp.csproj", "{19400F33-D5E5-4EE6-B116-B9CFEA42006E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlainWebApiApp", "PlainWebApiApp\PlainWebApiApp.csproj", "{A856FBD3-D2F1-4E13-A734-FB9D917F7A7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{749B4B40-B0B0-454B-869B-2E216DEF17EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749B4B40-B0B0-454B-869B-2E216DEF17EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749B4B40-B0B0-454B-869B-2E216DEF17EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749B4B40-B0B0-454B-869B-2E216DEF17EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19400F33-D5E5-4EE6-B116-B9CFEA42006E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19400F33-D5E5-4EE6-B116-B9CFEA42006E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19400F33-D5E5-4EE6-B116-B9CFEA42006E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19400F33-D5E5-4EE6-B116-B9CFEA42006E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A856FBD3-D2F1-4E13-A734-FB9D917F7A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A856FBD3-D2F1-4E13-A734-FB9D917F7A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A856FBD3-D2F1-4E13-A734-FB9D917F7A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A856FBD3-D2F1-4E13-A734-FB9D917F7A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

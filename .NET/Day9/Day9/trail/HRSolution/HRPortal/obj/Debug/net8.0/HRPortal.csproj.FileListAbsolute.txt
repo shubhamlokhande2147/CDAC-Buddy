@@ -1,0 +1,141 @@
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\bin\Debug\net8.0\appsettings.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.staticwebassets.runtime.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.exe
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.deps.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.runtimeconfig.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.AssemblyInfo.cs
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.RazorAssemblyInfo.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.RazorAssemblyInfo.cs
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets\msbuild.HRPortal.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets\msbuild.build.HRPortal.props
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HRPortal.props
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HRPortal.props
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\scopedcss\bundle\HRPortal.styles.css
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\scopedcss\projectbundle\HRPortal.bundle.scp.css
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\refint\HRPortal.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.genruntimeconfig.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\obj\Debug\net8.0\ref\HRPortal.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\appsettings.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.staticwebassets.runtime.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.exe
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.deps.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.runtimeconfig.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.csproj.AssemblyReference.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.AssemblyInfo.cs
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.RazorAssemblyInfo.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.RazorAssemblyInfo.cs
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets\msbuild.HRPortal.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets\msbuild.build.HRPortal.props
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HRPortal.props
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HRPortal.props
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\scopedcss\bundle\HRPortal.styles.css
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\scopedcss\projectbundle\HRPortal.bundle.scp.css
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.csproj.CopyComplete
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\refint\HRPortal.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.genruntimeconfig.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\ref\HRPortal.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.csproj.AssemblyReference.cache
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.GeneratedMSBuildEditorConfig.editorconfig
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.AssemblyInfoInputs.cache
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.AssemblyInfo.cs
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.csproj.CoreCompileInputs.cache
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.MvcApplicationPartsAssemblyInfo.cache
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.RazorAssemblyInfo.cache
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.RazorAssemblyInfo.cs
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.sourcelink.json
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\refint\HRPortal.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.pdb
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\appsettings.Development.json
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\appsettings.json
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.staticwebassets.runtime.json
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.exe
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.deps.json
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.runtimeconfig.json
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\HRPortal.pdb
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\Google.Protobuf.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\MySql.Data.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\ZstdSharp.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets.build.json
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets.development.json
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets\msbuild.HRPortal.Microsoft.AspNetCore.StaticWebAssets.props
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets\msbuild.build.HRPortal.props
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HRPortal.props
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HRPortal.props
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\staticwebassets.pack.json
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\scopedcss\bundle\HRPortal.styles.css
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\scopedcss\projectbundle\HRPortal.bundle.scp.css
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.csproj.CopyComplete
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\HRPortal.genruntimeconfig.cache
+D:\program files\CDAC\cdac-DotNET-AdJava\Day9\trail\HRSolution\HRPortal\obj\Debug\net8.0\ref\HRPortal.dll

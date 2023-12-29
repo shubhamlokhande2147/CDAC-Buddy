@@ -1,0 +1,20 @@
+@using HRPortal.Models;
+@{
+    ViewData["Title"] = "Employee list";
+}
+
+@{
+    <table>
+        @foreach (var Employee in Model)
+        {
+            <tr>
+                <td> @Employee.FirstName</td>
+                <td>
+                    <a href="/employees/Details/@Employee.Id">Details</a>
+                    <a href="/employees/Edit/@Employee.Id">Edit</a>
+
+                </td>
+            </tr>
+        }
+    </table>
+}

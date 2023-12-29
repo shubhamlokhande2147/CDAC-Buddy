@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Employee index";
+}
+
+@{
+    List<Company> clist = (List<Company>)ViewData["company"];
+    <ol>
+        @foreach(Company c in clist)
+        {
+            <li> @c.CompanyName @c.CompanyContact @c.Location </li>
+        }
+    </ol>
+}
