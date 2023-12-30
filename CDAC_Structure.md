@@ -112,3 +112,4 @@
     - ADO.NET
     - Database Connectivity
     - MVC with ODBC using BOL,DAL,BLL (Business Object Layer,Data Access Layer,Business Logic Layer)
+    - Web API(Command web and webapi)
