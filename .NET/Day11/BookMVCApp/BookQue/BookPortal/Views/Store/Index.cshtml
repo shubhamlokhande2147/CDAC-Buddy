@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</script>
+<header>
+    <ul>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Store" asp-action="AddBook">AddBook</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Store" asp-action="UpdateBook">UpdateBook</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Store" asp-action="DeleteBook">DeleteBook</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Store" asp-action="GetBook">GetBook</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Store" asp-action="GettAll">GettAll</a>
+        </li>
+    </ul>
+
+</header>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <a href="AddBook"></a>
+</div>

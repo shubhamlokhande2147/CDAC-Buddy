@@ -1,0 +1,25 @@
+@using BookPortal.BOL;
+@{
+
+    ViewData["Title"] = "Add book";
+}
+<script>
+</script>
+<div class="text-center">
+    <h1 class="display-4">Book Manager</h1>
+    <fieldset>
+        <legend> Get Book</legend>
+        <form method="get">
+            <input type="submit" value="Get Book">
+          @{
+            List<Book> b1 = (List<Book>)ViewData["b"];
+                @foreach(Book l in b1)
+                {
+                    <li>@l.Id @l.Bname @l.Author @l.price</li>
+                }
+
+          }
+        </form>
+    </fieldset>
+    <p id="demo"></p>
+</div>
