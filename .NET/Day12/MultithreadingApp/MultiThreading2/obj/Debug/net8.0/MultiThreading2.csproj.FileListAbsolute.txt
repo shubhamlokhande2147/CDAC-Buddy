@@ -1,0 +1,14 @@
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\bin\Debug\net8.0\MultiThreading2.exe
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\bin\Debug\net8.0\MultiThreading2.deps.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\bin\Debug\net8.0\MultiThreading2.runtimeconfig.json
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\bin\Debug\net8.0\MultiThreading2.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\bin\Debug\net8.0\MultiThreading2.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\obj\Debug\net8.0\MultiThreading2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\obj\Debug\net8.0\MultiThreading2.AssemblyInfoInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\obj\Debug\net8.0\MultiThreading2.AssemblyInfo.cs
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\obj\Debug\net8.0\MultiThreading2.csproj.CoreCompileInputs.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\obj\Debug\net8.0\MultiThreading2.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\obj\Debug\net8.0\refint\MultiThreading2.dll
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\obj\Debug\net8.0\MultiThreading2.pdb
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\obj\Debug\net8.0\MultiThreading2.genruntimeconfig.cache
+C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day12\MultithreadingApp\MultiThreading2\obj\Debug\net8.0\ref\MultiThreading2.dll
