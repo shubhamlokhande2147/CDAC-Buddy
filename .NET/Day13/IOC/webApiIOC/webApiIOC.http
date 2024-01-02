@@ -1,0 +1,6 @@
+@webApiIOC_HostAddress = http://localhost:5264
+
+GET {{webApiIOC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

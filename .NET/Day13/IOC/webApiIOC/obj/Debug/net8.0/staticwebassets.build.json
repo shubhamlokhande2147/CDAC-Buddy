@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "43iMZo5G3FrFdb3KEGGiJKmnwRX0scD5wJ5XuS1R1Ec=",
+  "Source": "webApiIOC",
+  "BasePath": "_content/webApiIOC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
