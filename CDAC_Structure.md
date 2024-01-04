@@ -26,6 +26,8 @@
       - Deployment a Website on server using AWS
       - Docker, Container
       - AWS Deployment using shell Scripting
+      - Testing (Manual,Automation).....selenium
+      - Jenkins
        
      OS :
       - Introduction of OS
