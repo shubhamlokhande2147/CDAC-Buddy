@@ -140,7 +140,8 @@ public static class DBManager
         return list;
     }
     public static List<Book> GetAllBook()
-    {
+    { 
+        
         MySqlConnection conn = new MySqlConnection();
         conn.ConnectionString = conString;
         string query = "select id,bname,author,price from book ";
