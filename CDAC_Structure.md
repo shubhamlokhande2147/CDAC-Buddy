@@ -104,8 +104,9 @@
     - Tomcat Server Connection
     - Web Application - HTML pages, Servlet, JDBC, Tomcat Server
     - JSP
+     
       
-  9) .Net Core (15 days)
+  10) .Net Core (15 days)
     - Introduction of C# language
     - OOP, Interface
     - ConsoleApp, WebApp, MVC, Razer Pages
