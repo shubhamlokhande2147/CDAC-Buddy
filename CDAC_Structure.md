@@ -104,7 +104,8 @@
     - Tomcat Server Connection
     - Web Application - HTML pages, Servlet, JDBC, Tomcat Server
     - JSP
-     
+    - Maven
+    - Hibernate
       
   10) .Net Core (15 days)
     - Introduction of C# language
