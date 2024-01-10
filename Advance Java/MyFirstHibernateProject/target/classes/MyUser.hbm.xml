@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM
+	"hibernate-mapping-3.0.dtd">
+<!-- Version 8 MySQL hiberante-cfg.xml example for Hibernate 5 -->
+  <hibernate-mapping>
+  <class name="com.demo.model.MyUser" table="UserTab">
+    <id name="Id">
+    <generator class="assigned"></generator>
+    </id>
+    <property name="Name" type="string"></property>
+  </class>
+  
+  
+  </hibernate-mapping>

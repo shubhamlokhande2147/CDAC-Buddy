@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping SYSTEM
+	"hibernate-mapping-3.0.dtd">
+<!-- Version 8 MySQL hiberante-cfg.xml example for Hibernate 5 -->
+  <hibernate-mapping>
+  <class name="com.demo.model.Employee" table="emptab">
+    <id name="eid">
+    <generator class="assigned"></generator>
+    </id>
+    <property name="ename" type="string"></property>
+     <property name="sal" type="double"></property>
+  </class>
+  
+  
+  </hibernate-mapping>
