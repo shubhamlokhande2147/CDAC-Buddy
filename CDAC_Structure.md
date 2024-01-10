@@ -106,6 +106,7 @@
     - JSP
     - Maven
     - Hibernate
+    - Annotataions,Relationship(OneToOne ,........) 
       
   10) .Net Core (15 days)
     - Introduction of C# language
