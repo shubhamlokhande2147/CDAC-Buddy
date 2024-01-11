@@ -44,11 +44,30 @@ public class TestOneToMany {
 		session.save(e4);
 		tr.commit();
 
+		System.out.println("-----------------------------------------------------------------------------------------");	
+		//for retrieve data from database
 		Department d5=session.get(Department.class, 10);
 		Employee e5=session.get(Employee.class,14 );
 		System.out.println(d5); 
 		System.out.println(d5.getEset());
+		System.out.println("-----------------------------------------------------------------------------------------");	
 		System.out.println(e5);	
+		
+		//update the table 
+		Session s1=sf.openSession();
+		Transaction tr1=s1.beginTransaction();
+		Employee e11 = s1.get(Employee.class, 14);
+		e11.setEname("Shubham");
+		s1.update(e11);
+		tr1.commit();
+		
+		//retrieve data once again
+		Employee e15=session.get(Employee.class,14 );
+		System.out.println("-----------------------------------------------------------------------------------------");			System.out.println("-----------------------------------------------------------------------------------------");	
+		System.out.println(e15);	
+		System.out.println("-----------------------------------------------------------------------------------------");	
+
+
 		
 	}
 	
