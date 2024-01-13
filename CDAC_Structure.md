@@ -106,6 +106,7 @@
     - JSP
     - Hibernate
     - Spring
+    - IOC, AOP
       
   9) .Net Core (15 days)
     - Introduction of C# language

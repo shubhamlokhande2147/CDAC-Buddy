@@ -36,11 +36,7 @@
 	    <artifactId>mysql-connector-java</artifactId>
 	    <version>8.0.11</version>
 	</dependency>
-	<dependency>
-		<groupId>ManyToMany</groupId>
-		<artifactId>ManyToMany</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</dependency>
+	
   </dependencies>
   
 </project>
