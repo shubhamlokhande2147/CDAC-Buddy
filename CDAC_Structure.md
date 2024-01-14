@@ -107,6 +107,7 @@
     - Hibernate
     - Spring
     - IOC, AOP
+    - Resource Bundling, Spring MVC
       
   9) .Net Core (15 days)
     - Introduction of C# language
