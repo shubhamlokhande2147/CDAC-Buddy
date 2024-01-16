@@ -107,7 +107,10 @@
     - Hibernate
     - Spring
     - IOC, AOP
-    - Resource Bundling, Spring MVC
+    - Resource Bundling
+    - Spring MVC CRUD Application
+    - Webservices using spring
+    - Spring MVC CRUD Application
     
       
   9) .Net Core (15 days)
