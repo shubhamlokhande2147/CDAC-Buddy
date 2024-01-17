@@ -110,7 +110,9 @@
     - Resource Bundling
     - Spring MVC CRUD Application
     - Webservices using spring
-    - Spring MVC CRUD Application
+    - SpringBoot MVC CRUD Application
+    - Webservices using SpringBoot
+    - JWT Tokens
     
       
   9) .Net Core (15 days)
