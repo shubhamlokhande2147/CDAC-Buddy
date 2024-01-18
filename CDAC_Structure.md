@@ -96,7 +96,7 @@
     - React
 
 
-  8) Advance Java (6+ days)  
+  8) Advance Java (6+10= 16 days)  
     - JDBC
     - Web Application
     - Servlet
