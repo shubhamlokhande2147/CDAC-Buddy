@@ -97,34 +97,34 @@
 
 
   8) Advance Java (6+10= 16 days)  
-    - JDBC
-    - Web Application
-    - Servlet
-    - Login Page
-    - Tomcat Server Connection
-    - Web Application - HTML pages, Servlet, JDBC, Tomcat Server
-    - JSP
-    - Hibernate
-    - Spring
-    - IOC, AOP
-    - Resource Bundling
-    - Spring MVC CRUD Application
-    - Webservices using spring
-    - SpringBoot MVC CRUD Application
-    - Webservices using SpringBoot
-    - JWT Tokens
-    - Fullstack Application ( React + Java(Spring Rest API's) + Mysql Database)
+     - JDBC
+     - Web Application
+     - Servlet
+     - Login Page
+     - Tomcat Server Connection
+     - Web Application - HTML pages, Servlet, JDBC, Tomcat Server
+     - JSP
+     - Hibernate
+     - Spring
+     - IOC, AOP
+     - Resource Bundling
+     - Spring MVC CRUD Application
+     - Webservices using spring
+     - SpringBoot MVC CRUD Application
+     - Webservices using SpringBoot
+     - JWT Tokens
+     - Fullstack Application ( React + Java(Spring Rest API's) + Mysql Database)
     
       
   9) .Net Core (15 days)
-    - Introduction of C# language
-    - OOP, Interface
-    - ConsoleApp, WebApp, MVC, Razer Pages
-    - Windows Form
-    - Delegete, Event
-    - ADO.NET
-    - Database Connectivity
-    - MVC with ODBC using BOL,DAL,BLL (Business Object Layer,Data Access Layer,Business Logic Layer)
-    - Web API(Command web and webapi)
-    - Multithreading, Dependancy Injection
-    - IOC, Security in .net
+     - Introduction of C# language
+     - OOP, Interface
+     - ConsoleApp, WebApp, MVC, Razer Pages
+     - Windows Form
+     - Delegete, Event
+     - ADO.NET
+     - Database Connectivity
+     - MVC with ODBC using BOL,DAL,BLL (Business Object Layer,Data Access Layer,Business Logic Layer)
+     - Web API(Command web and webapi)
+     - Multithreading, Dependancy Injection
+     - IOC, Security in .net
