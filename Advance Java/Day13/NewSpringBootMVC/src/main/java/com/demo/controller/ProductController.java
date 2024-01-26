@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-
 import com.demo.model.Product;
 import com.demo.service.ProductService;
 
@@ -22,53 +21,53 @@ import com.demo.service.ProductService;
 public class ProductController {
 	@Autowired
 	private ProductService pservice;
-	
+
 	@GetMapping("/getproducts")
 	public ModelAndView getProducts(HttpSession session) {
-		   List<Product> plist=pservice.getAllProducts();
-		   return new ModelAndView("displayproduct","plist",plist);
-		
+		List<Product> plist = pservice.getAllProducts();
+		return new ModelAndView("displayproduct", "plist", plist);
+
 	}
-	
+
 	@GetMapping("/addproduct")
 	public String displayaddform(HttpSession session) {
-		  return "addproduct";
-		
+		return "addproduct";
+
 	}
-	
+
 	@PostMapping("/insertProduct")
-	public ModelAndView insertProduct(@RequestParam int pid, @RequestParam String pname,@RequestParam int qty,@RequestParam double price) {
-		Product p=new Product(pid,pname,qty,price);
+	public ModelAndView insertProduct(@RequestParam int pid, @RequestParam String pname, @RequestParam int qty,
+			@RequestParam double price) {
+		Product p = new Product(pid, pname, qty, price);
 		pservice.addnewProduct(p);
 		return new ModelAndView("redirect:/product/getproducts");
-		
+
 	}
-	
+
 	@GetMapping("/edit/{id}")
 	public ModelAndView editProduct(@PathVariable("id") int pid) {
-		Product p=pservice.getById(pid);
-		return new ModelAndView("editProduct","p",p);
-		
+		Product p = pservice.getById(pid);
+		return new ModelAndView("editProduct", "p", p);
+
 	}
-	
+
 	@PostMapping("/updateProduct")
-	public ModelAndView updateProdut(@RequestParam int pid, @RequestParam String pname,@RequestParam int qty,@RequestParam double price) {
-		pservice.updateById(new Product(pid,pname,qty,price));
+	public ModelAndView updateProdut(@RequestParam int pid, @RequestParam String pname, @RequestParam int qty,
+			@RequestParam double price) {
+		pservice.updateById(new Product(pid, pname, qty, price));
 		return new ModelAndView("redirect:/product/getproducts");
 	}
-	
+
 	@GetMapping("delete/{id}")
 	public ModelAndView deleteProduct(@PathVariable int id) {
 		pservice.deleteById(id);
 		return new ModelAndView("redirect:/product/getproducts");
 	}
-	
+
 	@GetMapping("/products/price/{lpr}/{hpr}")
-	public ModelAndView getProductByprice(@PathVariable int lpr,@PathVariable int hpr) {
-		List<Product> plist=pservice.getByPrice(lpr,hpr);
-		return new ModelAndView("displayproduct","plist",plist);
+	public ModelAndView getProductByprice(@PathVariable int lpr, @PathVariable int hpr) {
+		List<Product> plist = pservice.getByPrice(lpr, hpr);
+		return new ModelAndView("displayproduct", "plist", plist);
 	}
-	
-	
 
 }
