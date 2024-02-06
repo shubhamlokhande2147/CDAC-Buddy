@@ -9,9 +9,6 @@ Console.WriteLine(acc);
 acc.nam = " vivek";
 Console.WriteLine(acc);
 
-
-
-
 Console.WriteLine(acc.getbalance());
 
 acc.Withdraw(10001);
