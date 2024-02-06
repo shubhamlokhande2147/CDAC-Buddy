@@ -1,11 +1,11 @@
-package com.demo;
+package src.main.java.com.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NewSpringBootMVC {
+public class NewSpringBootWebService {
 	public static void main(String[] args) {
-		SpringApplication.run(NewSpringBootMVC.class, args);
+		SpringApplication.run(NewSpringBootWebService.class, args);
 	}
 }
