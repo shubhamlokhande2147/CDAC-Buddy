@@ -11,7 +11,7 @@
 // Helper.GetRemoteData();
 
 
-﻿using Utility;
+using Utility;
 using System.Threading;
 Thread th1=Thread.CurrentThread;
 Console.WriteLine("Primary Thread Id:"+th1.ManagedThreadId);

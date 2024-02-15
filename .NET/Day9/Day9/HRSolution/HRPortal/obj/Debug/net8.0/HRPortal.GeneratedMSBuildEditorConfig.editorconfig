@@ -9,67 +9,67 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HRPortal
 build_property.RootNamespace = HRPortal
-build_property.ProjectDir = C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal\
+build_property.ProjectDir = D:\CDAC\_Local_Repository\CDAC-Buddy-1\.NET\Day9\Day9\HRSolution\HRPortal\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\IET\Desktop\230945920053_230945920112\.Net\HNET\Day9\HRSolution\HRPortal
+build_property.MSBuildProjectDirectory = D:\CDAC\_Local_Repository\CDAC-Buddy-1\.NET\Day9\Day9\HRSolution\HRPortal
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/Company/Index.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/Company/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/Employee/Edit.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/Employee/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/Employee/Index.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/Employee/List.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/Employee/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/Home/Index.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/Home/Login.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/Home/Privacy.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/Home/Register.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/Home/Welcome.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/Home/Welcome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXZWxjb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/Shared/Error.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/_ViewImports.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/_ViewStart.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/IET/Desktop/230945920053_230945920112/.Net/HNET/Day9/HRSolution/HRPortal/Views/Shared/_Layout.cshtml]
+[D:/CDAC/_Local_Repository/CDAC-Buddy-1/.NET/Day9/Day9/HRSolution/HRPortal/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fguq6p93n2

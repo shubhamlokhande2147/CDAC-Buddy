@@ -12,7 +12,7 @@ public class CollectionContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         //  string conString = "server=192.168.10.150;port=3306;user=dac31;password=welcome;database=dac31";
-        string conString = @"server=192.168.10.150;port=3306;user=dac31; password=welcome;database=dac31";
+        string conString = @"server=localhost;port=3306;user=root; password=Shubham@2147;database=dot_net";
         optionsBuilder.UseMySQL(conString);
     }
 

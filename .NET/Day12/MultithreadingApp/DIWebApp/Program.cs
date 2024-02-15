@@ -1,6 +1,7 @@
 using DIWebApp.Services;
 var builder = WebApplication.CreateBuilder(args);
 
+//Add Dependancy Injectiton with singleton pattern
 builder.Services.AddSingleton<IHelloWorldService, HelloWorldService>();
 builder.Services.AddSingleton<IProductCatalogService, ProductCatalogService>();
 

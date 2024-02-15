@@ -8,24 +8,26 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\IET\\.nuget\\packages\\": {}
+    "C:\\Users\\shubh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\IET\\Desktop\\230945920053_230945920112\\.Net\\HNET\\Day12\\MultithreadingApp\\DIWebApp\\DIWebApp.csproj",
+      "projectUniqueName": "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day12\\MultithreadingApp\\DIWebApp\\DIWebApp.csproj",
       "projectName": "DIWebApp",
-      "projectPath": "C:\\Users\\IET\\Desktop\\230945920053_230945920112\\.Net\\HNET\\Day12\\MultithreadingApp\\DIWebApp\\DIWebApp.csproj",
-      "packagesPath": "C:\\Users\\IET\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\IET\\Desktop\\230945920053_230945920112\\.Net\\HNET\\Day12\\MultithreadingApp\\DIWebApp\\obj\\",
+      "projectPath": "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day12\\MultithreadingApp\\DIWebApp\\DIWebApp.csproj",
+      "packagesPath": "C:\\Users\\shubh\\.nuget\\packages\\",
+      "outputPath": "D:\\CDAC\\_Local_Repository\\CDAC-Buddy-1\\.NET\\Day12\\MultithreadingApp\\DIWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\IET\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\shubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
