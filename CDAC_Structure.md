@@ -88,13 +88,13 @@
      
   7) Web Technology (11 days)
      - HTML
-    - JS
-    - CSS
-    - JQuery
-    - Ajax
-    - JS Syntax Struture
-    - Express Server
-    - React
+     - JS
+     - CSS
+     - JQuery
+     - Ajax
+     - JS Syntax Struture
+     - Express Server
+     - React
 
   8) Advance Java (6+10= 16 days)  
      - JDBC
