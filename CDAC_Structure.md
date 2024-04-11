@@ -1,4 +1,5 @@
 # Modules -> 
+             CCEE Score - 165/320
              C++, SDM, DBT, OOPs with JAVA, Data Structure with JAVA, WPT, Advance Java, .Net
 
 1) C++ : (15 Days)36
@@ -86,14 +87,14 @@
      - Dynamic Programing alorithm(Floyed_Warshall,Ford_Falkerson)
      
   7) Web Technology (11 days)
-    - HTML
-    - JS
-    - CSS
-    - JQuery
-    - Ajax
-    - JS Syntax Struture
-    - Express Server
-    - React
+     - HTML
+     - JS
+     - CSS
+     - JQuery
+     - Ajax
+     - JS Syntax Struture
+     - Express Server
+     - React
 
   8) Advance Java (6+10= 16 days)  
      - JDBC
@@ -127,3 +128,4 @@
      - Web API(Command web and webapi)
      - Multithreading, Dependancy Injection
      - IOC, Security in .net
+       
