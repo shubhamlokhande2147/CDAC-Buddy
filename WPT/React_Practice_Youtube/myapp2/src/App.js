@@ -8,6 +8,8 @@ import './App.css';
 //=======================================================================
 
 import { UseState_Hook } from './Functional_Lifecycle_Methods/UseState_Hook';
+import { UseEffect_Hook } from './Functional_Lifecycle_Methods/UseEffect_Hook'
+import { Condition_with_UseEffect_Hook } from './Functional_Lifecycle_Methods/Condition_with_UseEffect_Hook'
 
 function App() {
   return (
@@ -32,7 +34,13 @@ function App() {
        {/* <ComponentWillUnmount/> */}
  
        {/* UseState_Hook Example -  */}
-       <UseState_Hook/>
+       {/* <UseState_Hook/> */}
+
+       {/* UseEffect_Hook Example -  */}
+       {/* <UseEffect_Hook/> */}
+
+       {/* Condition_with_UseEffect_Hook with specific condition - */}
+       <Condition_with_UseEffect_Hook />
      </div>
   );
 }
