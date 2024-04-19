@@ -16,6 +16,11 @@ import { Condition_with_UseEffect_Hook } from './Functional_Lifecycle_Methods/Co
 import { Stylesheets_Types } from './CSS Example/Stylesheets_Types';
 import { Bootstrap_Example } from './Bootstrap/Bootstrap_Example'
 
+//==============================================================================================
+
+import { Array_MapFun } from './Array With List/Array_MapFun';
+import { Array_of_Object } from './Array With List/Array_of_Object';
+import { Nested_List } from './Array With List/Nested_List';
 
 function App() {
   return (
@@ -52,8 +57,16 @@ function App() {
        {/* <Stylesheets_Types /> */}
 
        {/* Bootstrap_Example -  */}
-       <Bootstrap_Example />
+       {/* <Bootstrap_Example /> */}
 
+       {/* Array with list using map() function -  */}
+       {/* <Array_MapFun/> */}
+
+       {/* Arra of Object with list using map() function  - */}
+       {/* <Array_of_Object/> */}
+
+       {/* Nested List using map() function -  */}
+       <Nested_List/>
      </div>
   );
 }
