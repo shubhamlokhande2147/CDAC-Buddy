@@ -22,6 +22,14 @@ import { Array_MapFun } from './Array With List/Array_MapFun';
 import { Array_of_Object } from './Array With List/Array_of_Object';
 import { Nested_List } from './Array With List/Nested_List';
 
+//=================================================================================================
+
+import { Reuse_Component } from './Reuse Component/Reuse_Component';
+
+//==================================================================================================
+
+import { ParentComponent } from './Lifting_State_Up/ParentComponent';
+
 function App() {
   return (
     <div className="App">
@@ -66,7 +74,14 @@ function App() {
        {/* <Array_of_Object/> */}
 
        {/* Nested List using map() function -  */}
-       <Nested_List/>
+       {/* <Nested_List/> */}
+
+       {/* Reuse_Component Example using User Component -  */}
+       {/* <Reuse_Component/> */}
+
+       {/* Lifting_State_Up Example, here, Data Send to Child to Parant Component -  */}
+       <ParentComponent/>
+
      </div>
   );
 }

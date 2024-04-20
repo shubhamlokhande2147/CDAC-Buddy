@@ -44,10 +44,19 @@ export function Nested_List()
                         <td>{data.mobile}</td>
                             <td>
                                      <Table striped variant="dark">
+                                     <thead>
+                                          <tr>
+                                            <th>Sr.</th>
+                                            <th>House No.</th>
+                                            <th>City</th>
+                                            <th>Country</th>
+                                          </tr>
+                                        </thead>
                                         <tbody> 
                                         {
                                            data.address.map((items,i)=>
                                              <tr key={ i }>
+                                                <td>{ i + 1 }</td>
                                                 <td>{items.hn}</td>
                                                 <td>{items.city}</td>
                                                 <td>{items.country}</td>
