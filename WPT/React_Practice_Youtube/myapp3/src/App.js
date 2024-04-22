@@ -9,6 +9,12 @@ import { Ref_with_Class } from './Ref/Ref_with_Class';
 import { UseRef_with_Function } from './Ref/UseRef_with_Function'; 
 import { ForwardRef_Parent } from './Ref/ForwardRef_Parent';
 
+//=======================================================================
+
+import { Controlled_Component } from './Controlled_Component';
+import { Uncontrolled_Component } from './Uncontrolled_Component';
+import { HOC_Component } from './HOC_Component';
+
 
 function App() {
   return (
@@ -27,7 +33,16 @@ function App() {
      {/* <UseRef_with_Function/> */}
 
      {/* Ref using useRef Hook for forwordRef with parent and child Component Example */}
-     <ForwardRef_Parent/>
+     {/* <ForwardRef_Parent/> */}
+
+     {/* Controlled_Component Example -  */}
+     {/* <Controlled_Component /> */}
+
+     {/* Uncontrolled_Component Example -  */}
+     {/* <Uncontrolled_Component /> */}
+
+     {/* High Order Component Example -  */}
+     <HOC_Component/>
     </div>
   );
 }
