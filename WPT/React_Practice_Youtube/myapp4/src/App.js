@@ -8,6 +8,7 @@ import { NavBars_Links } from './Components/NavBars_Links';
 import { PageNot_404 } from './Components/PageNot_404';
 import { Params_Users } from './Components/Params_Users';
 import { SearchParam_Hook } from './Components/SearchParam_Hook';
+import { UseNavigate_Hook } from './Components/UseNavigate_Hook';
 
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
 
               {/* useSearchParam Hook Example -  */}
               <Route path='/searchparam_hook' element={<SearchParam_Hook/>}></Route>
+
+              {/* UseNavigate Hook Example -  */}
+              <Route path='/usenavigate_hook' element={<UseNavigate_Hook/>}></Route>
 
            </Routes>
       </BrowserRouter>

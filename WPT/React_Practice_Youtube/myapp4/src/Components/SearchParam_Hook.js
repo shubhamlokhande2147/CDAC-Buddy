@@ -15,7 +15,7 @@ export function SearchParam_Hook()
             <h2>Age : {age}</h2>
             <h2>City : {city}</h2>
 
-            <button onClick={()=>setSearchParam({age: 40, city : "Kolhapurkr"})}>Set SearchParam</button>
+            <button onClick={()=>setSearchParam({age: 40, city : "Kolhapur"})}>Set SearchParam</button>
         </>
     )
 }
