@@ -9,6 +9,13 @@ import { PageNot_404 } from './Components/PageNot_404';
 import { Params_Users } from './Components/Params_Users';
 import { SearchParam_Hook } from './Components/SearchParam_Hook';
 import { UseNavigate_Hook } from './Components/UseNavigate_Hook';
+import { Business } from './Nested_Component/Business';
+import { Shivrudra } from './Nested_Component/Shivrudra';
+import { Hanuman } from './Nested_Component/Hanuman';
+import { Om } from './Nested_Component/Om';
+import { UseLocation_Hook } from './Components/UseLocation_Hook';
+import { Dyanamic_Routing } from './Dyanamic_Routing/Dyanamic_Routing';
+
 
 
 function App() {
@@ -35,9 +42,24 @@ function App() {
               {/* UseNavigate Hook Example -  */}
               <Route path='/usenavigate_hook' element={<UseNavigate_Hook/>}></Route>
 
+              {/* Nested Component Example -  */}
+               <Route path='/business/' element={<Business/>}>
+                      <Route path='shivrudra' element={<Shivrudra/>}></Route>
+                      <Route path='hanuman' element={<Hanuman/>}></Route>
+                      <Route path='om' element={<Om/>}></Route>
+               </Route>
+
+              {/* useLocation Hook Example -  */}
+              <Route path='/uselocation' element={<UseLocation_Hook/>}></Route>
+
+
+              {/* Dyanamic Routing Example -  */}
+              <Route path='/dyanamic_routing' element={<Dyanamic_Routing/>}></Route>
+
            </Routes>
       </BrowserRouter>
-
+           
+           <Dyanamic_Routing/>
      
     </div>
   );
