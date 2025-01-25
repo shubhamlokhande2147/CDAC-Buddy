@@ -71,8 +71,8 @@
      
   6) Data Structure with JAVA : (11 Days)17
      - Array
-     - Seaching  : Linear,Binary
-     - Sorting   : Bubble,Selection,Insertion,Merge,Quick,Haep(tree)
+     - Seaching : Linear,Binary
+     - Sorting  : Bubble,Selection,Insertion,Merge,Quick,Haep(tree)
      - Stack(isEmpty,isFull,Push,Pop)
      - Queue(isEmpty,isFull,Enqueue,Dequeue)
      - SinglyLinkedList(AddFirst,AddLast,AddBetween,DeleteAtEnd,DeleteBetween)
